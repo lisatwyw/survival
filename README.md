@@ -27,20 +27,19 @@
 
 <details>
 <summary>SEER: meta data</summary>
-|Field name | Meta info |
-|--|--|
+
+| Field name | Meta info |
+| -- | -- |
 | Patient ID | 8-digit, starting from 00000001 | 
 | Race recode | White, Black, Other |
 | Age recode with <1 year olds | Unknown, 25-29, ..., 40-44,...,55-59, ..., 70-74, .., 85+ years  |
 | PRCDA or not | purchased/referred care delivery area? |
 | Histologic Type ICD-O-3 | |
 | Hist/ behav (ICD-O-3) ||
-
-                     Other fields:
-                     - median household adjusted to 2019
-                     - Rural-Urban Continuum code
-
                      
+## Other fields:
+- median household adjusted to 2019
+- Rural-Urban Continuum code
                      
 </details>
 

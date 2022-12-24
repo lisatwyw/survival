@@ -10,12 +10,14 @@
   1. ```ss8_4_0_1.exe``` (SEER*Stat 8.40.1, downloaded on Dec 24, 2022) 
   2. ```sp301.exe``` (SEER*Prep 3.0)
 
-## Getting started 
-- File menu select New > Survival Session
-- warning: 
-  - Detroit no longer in database as of Nov 2021
-  - Illinois and Texas: new 22 registry databases
+## Extract data 
 
+To obtain patient-level (individualized) data
+- Click on "table" icon ![image](https://user-images.githubusercontent.com/38703113/209453078-33345bb2-2911-44aa-bc7c-922960cc3b8c.png)
+
+  - "Selection Tab" is used to define cohort 
+  - "Table Tab" defines fields to be added to the dataframe to be exported
+- Click on "execute" icon ![image](https://user-images.githubusercontent.com/38703113/209453082-81d650f2-c248-450c-8281-d6b732693edc.png) 
 </details>
 
 <details>

@@ -49,3 +49,14 @@
        'Complications of Pregnancy, Childbirth, Puerperium',
        'Certain Conditions Originating in Perinatal Period' 
   ```
+  
+## radio_diagnoses.csv
+
+```  
+DX,CODE_TYPE,Rtservice,Rttype,Description
+V58.0,ICD9 ,General,General,Encounter or admission for radiotherapy
+V66.1,ICD9 ,General,General,Convalescence and palliative care following radiotherapy
+V67.1,ICD9 ,General,General,Follow-up examination following radiotherapy
+E873.2,ICD9 ,General,General,Overdose of radiation in therapy
+E879.2,ICD9 ,General,General,Abnormal reaction or later complication of radiologic procedure and radiotherapy
+```

@@ -34,23 +34,34 @@
 | Race recode | White, Black, Other |
 | Age recode with <1 year olds | Unknown, 25-29, ..., 40-44,...,55-59, ..., 70-74, .., 85+ years  |
 | PRCDA or not | purchased/referred care delivery area? |
-| Histologic Type ICD-O-3 | |
-| Hist/ behav (ICD-O-3) ||
+| Histologic Type ICD-O-3 | 8140; 8070 |
+| Hist/ behav (ICD-O-3) | Adeocarcinoma; Squamous cell carcionma  |
+| AJCC Stage 3rd ed (1988-2003) | Blank; 10, 32, ... |
+| Laterality | Left - origin of primary, Right, bilateral, paired site, ... |
                      
 ## Other fields:
-- median household adjusted to 2019
+- Median household adjusted to 2019
 - Rural-Urban Continuum code
                      
 </details>
 
-  
-  
+
   
 </details>
 
 
 <details>
 <summary>Literature review</summary>
+## Guha et al. EHJ 2022   
+- Objectives: To measure the ```incidence, prevalence, risk factors and mortality outcomes of atrial fibrillation (AF) in a multi-ethnic representative United States cohort of breast cancer patients```
+- Model: KM
+- 
+  
+  
+## Lee et al. LDH 2021
+- Model:  Survival Quilts
+- Variables: ```age, PSA, primary and secondary Gleason grades or grade groups, T stage, total number of biopsy cores examined, and core positivity (number of cores positive for cancer divided by number of cores taken). MRI, comorbidity, and treatment data were not available```  
+  
 </details>
 
 

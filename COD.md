@@ -1,5 +1,10 @@
 # Cause of death (COD) 
 
+- [Seq 1-59](https://seer.cancer.gov/causespecific/icd10seq01.html)
+- [EOD 1977](https://seer.cancer.gov/archive/manuals/historic/EOD_1977.pdf)
+
+
+
 ## 1975-2017 from 8 registries archived on Nov 2019 
 
 ```

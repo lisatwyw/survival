@@ -230,7 +230,7 @@
 222	ventricular fibrillation
 223	ventricular tachycardia
 ```
-<details>
+</details>
 
 <details>
 <summary>SEER</summary>

@@ -4,6 +4,7 @@
 
 <details>
 <summary>e-ICU</summary>
+
 ```
 0	>= 20 mg prednisone per day or equivalent
 1	A paced
@@ -230,6 +231,7 @@
 222	ventricular fibrillation
 223	ventricular tachycardia
 ```
+
 </details>
 
 <details>

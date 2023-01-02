@@ -27,3 +27,17 @@ trn: ACC=0.53 | PR=0.91 | RC=0.53 | F1=0.53     tst: ACC=0.50         | PR=0.52 
 xgb100-mx12-ff0.3
 trn: ACC=0.55 | PR=0.92 | RC=0.55 | F1=0.56     tst: ACC=0.50         | PR=0.53 | RC=0.50 | F1=0.47
 ```
+
+MICE
+
+```
+POP='all'
+metid='brf'
+To train and evaluate brf...
+trn: ACC=81.3 | PR=57.9 | RC=81.3 | F1=52.5     tst: ACC=54.9 | PR=51.6 | RC=54.9 | F1=44.1
+
+metid='rusbooster'
+To train and evaluate rusbooster...
+trn: ACC=61.0 | PR=53.2 | RC=61.0 | F1=49.8     tst: ACC=53.1 | PR=51.1 | RC=53.1 | F1=46.8
+
+```

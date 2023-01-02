@@ -5,6 +5,16 @@
 <details>
 <summary>e-ICU</summary>
 
+## ```diedinhospital``` vs ```actualicumortality```
+```
+sum( joined.diedinhospital.isnull()  )
+10798
+sum( joined.actualicumortality.isnull()  )
+30126
+sum( joined.diedinhospital.isnull() |  joined.actualicumortality.isnull() )
+30126
+```
+
 ## pastHistory of AF 
 ```
   {'Hx_AS': 229,

@@ -5,6 +5,12 @@
 <details>
 <summary>e-ICU</summary>
 
+## ```NursingCharts```
+|Field name | Size | Notes |
+|--|--|--|
+|```nursingchartid```|151,604,232 | unique data entry ID |
+
+
 ## ```diedinhospital``` vs ```actualicumortality```
 ```
 sum( joined.diedinhospital.isnull()  )

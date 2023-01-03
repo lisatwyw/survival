@@ -169,6 +169,9 @@ Verbal_hrs                        NaN   14.700000
 ```
 </details>
   
+  
+  
+
 ```
 13                        Arterial Line MAP (mmHg)
 31                                 Bedside Glucose
@@ -235,9 +238,9 @@ Verbal_hrs                        NaN   14.700000
 19                                     Temperature
 27                                 Verbal Response
 34                                             NaN
-
 ```
 
+  
 ## ```diedinhospital``` vs ```actualicumortality```
 ```
 sum( joined.diedinhospital.isnull()  )

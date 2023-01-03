@@ -23,19 +23,21 @@
        'HISPANIC/LATINO - HONDURAN', 'ASIAN - ASIAN INDIAN',
        'HISPANIC/LATINO - COLUMBIAN', 'SOUTH AMERICAN'
 </details>
-  
+
+
 <details>
 <summary>e-ICU</summary>
 
 ## ```NursingCharts```
+
 |Field name | Size | Notes |
 |--|--|--|
 |```nursingchartid```|151,604,232 | unique data entry ID |
 
   
-  
 <details>
 <summary>Labels & example values</summary>  
+
 ```
 ArtMAP                      88.000000   48.000000
 BedsideGlucose                    NaN         NaN
@@ -165,8 +167,9 @@ SpO2_hrs                          NaN         NaN
 SympDelirium_hrs            28.966667  -12.416667
 Temp_hrs                     5.850000  -15.983333
 Verbal_hrs                        NaN   14.700000
- 
 ```
+  
+  
 </details>
   
   
@@ -619,7 +622,6 @@ sum( joined.diedinhospital.isnull() |  joined.actualicumortality.isnull() )
 222	ventricular fibrillation
 223	ventricular tachycardia
 ```
-
 </details>
 
 <details>

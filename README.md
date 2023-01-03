@@ -32,6 +32,143 @@
 |--|--|--|
 |```nursingchartid```|151,604,232 | unique data entry ID |
 
+  
+  
+<details>
+<summary>Labels & example values</summary>  
+```
+ArtMAP                      88.000000   48.000000
+BedsideGlucose                    NaN         NaN
+Best_eye                          NaN         NaN
+Best_motor                        NaN         NaN
+Best_verbal                       NaN         NaN
+CI                                NaN         NaN
+CO                                NaN         NaN
+CPP                               NaN         NaN
+CV/PV                             NaN         NaN
+CVP                               NaN         NaN
+CVP(mmHg)                   32.000000         NaN
+Delirium                          NaN         NaN
+ECG                               NaN         NaN
+ECMO                              NaN         NaN
+ElectrolyteReplace                NaN         NaN
+EndTidalCO2                       NaN         NaN
+EyeOpen                           NaN    4.000000
+EENTAsess                         NaN         NaN
+FallRisk                          NaN         NaN
+Gastro                            NaN         NaN
+Geni                              NaN         NaN
+GlasgowComa                       NaN   15.000000
+HR                         140.000000  104.000000
+IAP                               NaN         NaN
+ICP                               NaN         NaN
+Impella                           NaN         NaN
+Int                               NaN         NaN
+InvasiveBP                  62.000000   84.000000
+LVAD                              NaN         NaN
+LevelAssist                       NaN         NaN
+MAP(mmHg)                   67.000000         NaN
+MSA                               NaN         NaN
+Motor                             NaN    6.000000
+Musculo                           NaN         NaN
+Neuro                             NaN         NaN
+NoninvasiveBP               59.000000  131.000000
+O2Admin                           NaN         NaN
+O2(L/%)                      2.000000         NaN
+O2                          94.000000  100.000000
+PO                                NaN         NaN
+PA                                NaN         NaN
+PAOP                              NaN         NaN
+PVR                               NaN         NaN
+PVRI                              NaN         NaN
+Pain                              NaN         NaN
+PainPresent                       NaN         NaN
+PainScore                    0.000000    0.000000
+PatientRest                  2.000000    0.000000
+Pulse                             NaN         NaN
+PulseOxMode                       NaN         NaN
+RASS                              NaN         NaN
+Resp                              NaN         NaN
+RespRate                    22.000000   18.000000
+SedationScore                     NaN         NaN
+SV                                NaN         NaN
+SVO2                              NaN         NaN
+SVR                               NaN         NaN
+SVRI                              NaN         NaN
+ScoreGlasgowComaScale             NaN         NaN
+SedationScale                     NaN         NaN
+SpO2                              NaN         NaN
+SympDelirium                      NaN         NaN
+Temp                        97.000000         NaN
+Verbal                            NaN    5.000000
+ArtMAP_hrs                  35.100000   10.950000
+BedsideGlucose_hrs                NaN         NaN
+Best_eye_hrs                      NaN         NaN
+Best_motor_hrs                    NaN         NaN
+Best_verbal_hrs                   NaN         NaN
+CI_hrs                            NaN         NaN
+CO_hrs                            NaN         NaN
+CPP_hrs                           NaN         NaN
+CV/PV_hrs                    0.350000  -12.416667
+CVP_hrs                           NaN         NaN
+CVP(mmHg)_hrs               34.100000         NaN
+Delirium_hrs                      NaN         NaN
+ECG_hrs                           NaN         NaN
+ECMO_hrs                          NaN         NaN
+ElectrolyteReplace_hrs            NaN         NaN
+EndTidalCO2_hrs                   NaN         NaN
+EyeOpen_hrs                       NaN   14.700000
+EENTAsess_hrs                0.350000  -12.416667
+FallRisk_hrs                      NaN         NaN
+Gastro_hrs                   0.350000  -15.700000
+Geni_hrs                     0.350000  -15.683333
+GlasgowComa_hrs                   NaN   14.700000
+HR_hrs                       0.100000  -15.983333
+IAP_hrs                           NaN         NaN
+ICP_hrs                           NaN         NaN
+Impella_hrs                       NaN         NaN
+Int_hrs                      0.350000  -12.416667
+InvasiveBP_hrs              35.100000   10.950000
+LVAD_hrs                          NaN         NaN
+LevelAssist_hrs              0.533333  -12.300000
+MAP(mmHg)_hrs                0.100000         NaN
+MSA_hrs                      0.350000  -12.416667
+Motor_hrs                         NaN   14.700000
+Musculo_hrs                  0.350000  -12.416667
+Neuro_hrs                    0.350000  -12.416667
+NoninvasiveBP_hrs            0.100000  -15.983333
+O2Admin_hrs                  8.550000         NaN
+O2(L/%)_hrs                  8.550000         NaN
+O2_hrs                       0.350000  -15.983333
+PO_hrs                            NaN         NaN
+PA_hrs                            NaN         NaN
+PAOP_hrs                          NaN         NaN
+PVR_hrs                           NaN         NaN
+PVRI_hrs                          NaN         NaN
+Pain_hrs                     0.350000  -15.966667
+PainPresent_hrs                   NaN         NaN
+PainScore_hrs                0.350000  -12.416667
+PatientRest_hrs              0.350000  -12.416667
+Pulse_hrs                         NaN         NaN
+PulseOxMode_hrs              0.100000  -12.950000
+RASS_hrs                          NaN         NaN
+Resp_hrs                     0.350000  -15.716667
+RespRate_hrs                 8.550000  -15.983333
+SedationScore_hrs                 NaN         NaN
+SV_hrs                            NaN         NaN
+SVO2_hrs                          NaN         NaN
+SVR_hrs                           NaN         NaN
+SVRI_hrs                          NaN         NaN
+ScoreGlasgowComaScale_hrs         NaN         NaN
+SedationScale_hrs                 NaN         NaN
+SpO2_hrs                          NaN         NaN
+SympDelirium_hrs            28.966667  -12.416667
+Temp_hrs                     5.850000  -15.983333
+Verbal_hrs                        NaN   14.700000
+ 
+```
+</details>
+  
 ```
 13                        Arterial Line MAP (mmHg)
 31                                 Bedside Glucose

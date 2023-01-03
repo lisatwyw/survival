@@ -32,6 +32,74 @@
 |--|--|--|
 |```nursingchartid```|151,604,232 | unique data entry ID |
 
+```
+13                        Arterial Line MAP (mmHg)
+31                                 Bedside Glucose
+60                               Best Eye Response
+56                             Best Motor Response
+57                            Best Verbal Response
+30                                              CI
+40                                              CO
+42                                             CPP
+20                               CV/ PV Assessment
+35                                             CVP
+14                                      CVP (mmHg)
+36                            Delirium Scale/Score
+52                                      ECG (secs)
+64                                            ECMO
+51                         Electrolyte Replacement
+33                                   End Tidal CO2
+29                                     Eye Opening
+22               Eye, Ear, Nose, Throat Assessment
+54                                       Fall Risk
+10                     Gastrointestinal Assessment
+2                         Genitourinary Assessment
+26                              Glasgow coma score
+1                                       Heart Rate
+53                                             IAP
+43                                             ICP
+49                                         Impella
+3                         Integumentary Assessment
+11                                     Invasive BP
+50                                            LVAD
+6                              Level of Assistance
+8                                       MAP (mmHg)
+0                         Mental Status Assessment
+28                                  Motor Response
+9                       Musculoskeletal Assessment
+16                         Neurological Assessment
+17                                 Non-Invasive BP
+23                                 O2 Admin Device
+25                                          O2 L/%
+5                                    O2 Saturation
+48                                            P.O.
+41                                              PA
+44                                            PAOP
+32                                             PVR
+47                                            PVRI
+24                                 Pain Assessment
+62                                    Pain Present
+21                                 Pain Score/Goal
+18  Patient s Comfort/Function (Pain) GOAL At Rest
+58                                           Pulse
+4                                   Pulse Ox  Mode
+59                                            RASS
+15                          Respiratory Assessment
+12                                Respiratory Rate
+63                                  SEDATION SCORE
+38                                              SV
+45                                            SVO2
+39                                             SVR
+46                                            SVRI
+61                      Score (Glasgow Coma Scale)
+37                       Sedation Scale/Score/Goal
+55                                            SpO2
+7                     Symptoms of Delirium Present
+19                                     Temperature
+27                                 Verbal Response
+34                                             NaN
+
+```
 
 ## ```diedinhospital``` vs ```actualicumortality```
 ```
@@ -43,6 +111,8 @@ sum( joined.diedinhospital.isnull() |  joined.actualicumortality.isnull() )
 30126
 ```
 
+
+  
 ## pastHistory of AF 
 ```
   {'Hx_AS': 229,

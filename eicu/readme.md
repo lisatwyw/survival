@@ -1,3 +1,168 @@
+### Labnames
+
+```
+                                   0
+0                             -bands
+1                             -basos
+2                               -eos
+3                            -lymphs
+4                             -monos
+5                             -polys
+6                 24 h urine protein
+7           24 h urine urea nitrogen
+8                         ALT (SGPT)
+9                            ANF/ANA
+10                        AST (SGOT)
+11                     Acetaminophen
+12                   Amikacin - peak
+13                 Amikacin - random
+14                 Amikacin - trough
+15                               BNP
+16                               BUN
+17                      Base Deficit
+18                       Base Excess
+19                               CPK
+20                            CPK-MB
+21                      CPK-MB INDEX
+22                               CRP
+23                            CRP-hs
+24                     Carbamazepine
+25                 Carboxyhemoglobin
+26   Clostridium difficile toxin A+B
+27                       Cyclosporin
+28                            Device
+29                           Digoxin
+30                               ESR
+31                                Fe
+32                     Fe/TIBC Ratio
+33                          Ferritin
+34                              FiO2
+35                 Gentamicin - peak
+36               Gentamicin - random
+37               Gentamicin - trough
+38                              HCO3
+39                               HDL
+40                        HIV 1&2 AB
+41                    HSV 1&2 IgG AB
+42              HSV 1&2 IgG AB titer
+43                               Hct
+44                               Hgb
+45                               LDH
+46                               LDL
+47                            LPM O2
+48         Legionella pneumophila Ab
+49                         Lidocaine
+50                           Lithium
+51                               MCH
+52                              MCHC
+53                               MCV
+54                               MPV
+55                     Methemoglobin
+56                              Mode
+57                              NAPA
+58                        O2 Content
+59                        O2 Sat (%)
+60                     Oxyhemoglobin
+61                              PEEP
+62                                PT
+63                          PT - INR
+64                               PTT
+65                         PTT ratio
+66              Peak Airway/Pressure
+67                     Phenobarbital
+68                         Phenytoin
+69                  Pressure Control
+70                  Pressure Support
+71                      Procainamide
+72                               RBC
+73                               RDW
+74                         RPR titer
+75                  Respiratory Rate
+76                              Site
+77                  Spontaneous Rate
+78                                T3
+79                              T3RU
+80                                T4
+81                              TIBC
+82                               TSH
+83                                TV
+84                  Tacrolimus-FK506
+85                       Temperature
+86                      Theophylline
+87                 Tobramycin - peak
+88               Tobramycin - random
+89               Tobramycin - trough
+90                         Total CO2
+91                 Vancomycin - peak
+92               Vancomycin - random
+93               Vancomycin - trough
+94                        Vent Other
+95                         Vent Rate
+96                       Vitamin B12
+97                        WBC x 1000
+98               WBC's in body fluid
+99      WBC's in cerebrospinal fluid
+100       WBC's in pericardial fluid
+101        WBC's in peritoneal fluid
+102           WBC's in pleural fluid
+103          WBC's in synovial fluid
+104                   WBC's in urine
+105                          albumin
+106                   alkaline phos.
+107                          ammonia
+108                          amylase
+109                        anion gap
+110                  bedside glucose
+111                      bicarbonate
+112                          calcium
+113                             cd 4
+114                         chloride
+115                         cortisol
+116                       creatinine
+117                 direct bilirubin
+118                          ethanol
+119                       fibrinogen
+120                           folate
+121                          free T4
+122                          glucose
+123                    glucose - CSF
+124                      haptoglobin
+125                  ionized calcium
+126                          lactate
+127                           lipase
+128                        magnesium
+129                        myoglobin
+130                               pH
+131                            paCO2
+132                             paO2
+133                        phosphate
+134                 platelets x 1000
+135                        potassium
+136                       prealbumin
+137                        prolactin
+138                    protein - CSF
+139                        protein C
+140                        protein S
+141               reticulocyte count
+142                       salicylate
+143                    serum ketones
+144                 serum osmolality
+145                           sodium
+146                  total bilirubin
+147                total cholesterol
+148                    total protein
+149                      transferrin
+150                    triglycerides
+151                     troponin - I
+152                     troponin - T
+153                        uric acid
+154               urinary creatinine
+155               urinary osmolality
+156                   urinary sodium
+157         urinary specific gravity
+```
+
+
 ### PatRes
   
 ```

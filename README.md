@@ -5,6 +5,17 @@
 <details>
 <summary>MIMIC IV</summary>
 
+## ```POE```
+  
+```Poe.field_name.unique()
+
+array(['Admit category', 'Discharge Planning', 'Discharge When',
+       'Admit to', 'Code status', 'Consult Status', 'Consult Status Time',
+       'Level of Urgency', 'Tubes & Drains type', 'Transfer to',
+       'Indication'], dtype=object)
+```
+
+
 ## ```admissions.csv.gz.race```
   
       'WHITE', 'OTHER', 'BLACK/AFRICAN AMERICAN', 'UNABLE TO OBTAIN',

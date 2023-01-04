@@ -158,13 +158,36 @@ array(['Admit category', 'Discharge Planning', 'Discharge When',
 
 <details>
 <summary>e-ICU</summary>
+### PatRes
+  
+```
+PatRes.physicianspeciality.unique()
 
+array(['critical care medicine (CCM)', 'hospitalist', 'internal medicine',
+       'surgery-cardiac', 'Specialty Not Specified', 'family practice',
+       'cardiology', 'other', 'pulmonary/CCM', 'surgery-general',
+       'pulmonary', 'surgery-trauma', 'unknown', 'surgery-neuro',
+       'orthopedics', 'infectious disease', 'rheumatology', 'nurse',
+       'neurology', 'surgery-vascular', 'hematology/oncology',
+       'gastroenterology', 'otolaryngology', 'obstetrics/gynecology',
+       'emergency medicine', 'surgery-transplant', 'surgery-plastic',
+       'urology', 'surgery-critical care', 'nephrology', 'oncology',
+       'ethics', 'surgery-orthopedic', 'radiology', 'surgery-oral',
+       'anesthesiology/CCM', 'ophthalmology', 'hematology', 'dermatology',
+       'psychiatry', 'surgery-otolaryngology head & neck',
+       'allergy/immunology', 'endocrinology', 'anesthesiology',
+       'physical medicine/rehab', 'surgery-pediatric',
+       'nurse practitioner', 'respiratory therapist'], dtype=object) 
+```  
+  
+  
 ### ```NursingCharts```
 
 |Field name | Size | Notes |
 |--|--|--|
 |```nursingchartid```|151,604,232 | unique data entry ID |
 
+  
   
 <details>
 <summary>Labels & example values</summary>  

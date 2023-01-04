@@ -4,6 +4,9 @@
 
 ## Databases
 
+- [e-ICU](eicu/readme.md)
+
+
 <details>
 <summary>MIMIC IV</summary>
  
@@ -158,9 +161,6 @@ array(['Admit category', 'Discharge Planning', 'Discharge When',
 
 
 
-<summary>e-ICU</summary>
-  
-[See e-ICU](eicu.md)
 
 
 <details>

@@ -2,10 +2,12 @@
 
 [site under construction]
 
+## Databases
+
 <details>
 <summary>MIMIC IV</summary>
 
-## ```Procedural codes```
+### ```Procedural codes```
 
 ```  
 DxCodes.loc[DxCodes.long_title.str.contains('atrial fib',case=False ) ]
@@ -121,7 +123,9 @@ DxCodes.loc[DxCodes.long_title.str.contains('atrial',case=False ) ]
 77868     9961            9                               Atrial cardioversion
 
 ```
-## ```POE```
+
+  
+### ```POE```
   
 ```Poe.field_name.unique()
 
@@ -132,7 +136,7 @@ array(['Admit category', 'Discharge Planning', 'Discharge When',
 ```
 
 
-## ```admissions.csv.gz.race```
+### ```admissions.csv.gz.race```
   
       'WHITE', 'OTHER', 'BLACK/AFRICAN AMERICAN', 'UNABLE TO OBTAIN',
        'UNKNOWN', 'WHITE - RUSSIAN', 'PORTUGUESE',
@@ -155,7 +159,7 @@ array(['Admit category', 'Discharge Planning', 'Discharge When',
 <details>
 <summary>e-ICU</summary>
 
-## ```NursingCharts```
+### ```NursingCharts```
 
 |Field name | Size | Notes |
 |--|--|--|
@@ -371,7 +375,7 @@ Verbal_hrs                        NaN   14.700000
 ```
 
   
-## ```diedinhospital``` vs ```actualicumortality```
+### ```diedinhospital``` vs ```actualicumortality```
 ```
 sum( joined.diedinhospital.isnull()  )
 10798
@@ -383,7 +387,7 @@ sum( joined.diedinhospital.isnull() |  joined.actualicumortality.isnull() )
 
 
   
-## pastHistory of AF 
+### pastHistory of AF 
 ```
   {'Hx_AS': 229,
  'Hx_renal failure- not currently dialyzed': 16,
@@ -522,7 +526,7 @@ sum( joined.diedinhospital.isnull() |  joined.actualicumortality.isnull() )
  'Hx_sickle cell disease': 1}
  ``` 
   
-## Dx
+### Dx
 ```
 0	>= 20 mg prednisone per day or equivalent
 1	A paced
@@ -799,7 +803,7 @@ sum( joined.diedinhospital.isnull() |  joined.actualicumortality.isnull() )
 | AJCC Stage 3rd ed (1988-2003) | Blank; 10, 32, ... |
 | Laterality | Left - origin of primary, Right, bilateral, paired site, ... |
                      
-## Other fields:
+### Other fields:
 - Median household adjusted to 2019
 - Rural-Urban Continuum code
                      
@@ -810,26 +814,21 @@ sum( joined.diedinhospital.isnull() |  joined.actualicumortality.isnull() )
 </details>
 
 
-<details>
-<summary>Literature review</summary>
-## Guha et al. EHJ 2022   
+## Literature review
+### Guha et al. EHJ 2022   
 - Objectives: To measure the ```incidence, prevalence, risk factors and mortality outcomes of atrial fibrillation (AF) in a multi-ethnic representative United States cohort of breast cancer patients```
 - Model: KM
-- 
+- ...
   
   
-## Lee et al. LDH 2021
+### Lee et al. LDH 2021
 - Model:  Survival Quilts
 - Variables: ```age, PSA, primary and secondary Gleason grades or grade groups, T stage, total number of biopsy cores examined, and core positivity (number of cores positive for cancer divided by number of cores taken). MRI, comorbidity, and treatment data were not available```  
   
-</details>
 
-
-<details>
-<summary>Colab demos</summary>
+## Colab demos 
 
 | Dataset | Colab demo |
 |--|--|
 | SUPPORT | [CPH, GBS, RSF, SVM](SDA_SUPPORT_demo.ipynb) |
 
-</details>

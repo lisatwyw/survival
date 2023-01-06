@@ -1,3 +1,10 @@
+### Installation 
+
+```
+pip install --no-index tensorflow==2.8 torch==1.13.1 keras==2.8.0
+```
+
+
 ### Labnames
 
 ```

@@ -1,5 +1,25 @@
 # eicu
 
+2023-01-11
+
+```
+MXL=250; EP=120; fd=4; TK= [2]; VAL=8; BS=16; exec( open('run_val2.py').read() )
+
+checkpoint_fd4_BS64_VAL10 
+
+Running Fold 4...
+ntrn 21939 ntst 5484
+>> 21939 (5484, 200, 21)
+size of class1: 2176 size of class2: 17569
+Model wts loaded from checkpoint. Proceed with evaluation...
+===============
+Evaluation set: 1
+f1 0.5814021750297196, sen 0.2675250357653791, spec 0.2808777429467085, ppv 0.23375, npv 0.9641319942611191, aucpr 0.42457436276373683, auc 0.821385527232115, mcc 0.3068407764841609, specat90 0.48083801737353093, ===============
+Evaluation set: 2
+f1 0.5974686847367547, sen 0.7753934191702432, spec 0.6871473354231975, ppv 0.26581657675331044, npv 0.9544267053701015, aucpr 0.41297427348503696, auc 0.8053487367384068, mcc 0.319173140955656, specat90 0.46562173458725187, 
+```
+
+
 2023-01-01
 
 ## AF 

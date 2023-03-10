@@ -13,7 +13,7 @@ pip install --no-index tensorflow==2.8 torch==1.13.1 keras==2.8.0
 | Varname | Description |
 |--|--|
 | ```conf.dec_cat```| 6 | 
-'apacheadmissiondx', string of admission diagnosis for patients unit stay e.g.: Pulmonary valve surgery, Chest pain, unknown origin, Restrictive lung disease (i.e., Sarcoidosis, pulmonary fibrosis), etc." |
+| 'apacheadmissiondx'| string of admission diagnosis for patients unit stay e.g.: Pulmonary valve surgery, Chest pain, unknown origin, Restrictive lung disease (i.e., Sarcoidosis, pulmonary fibrosis), etc." |
 'gender' | 397 vs 398|
 'GCS Total', 
 'Eyes', 

@@ -1,8 +1,27 @@
-### Installation 
+# Requirements
 
 ```
 pip install --no-index tensorflow==2.8 torch==1.13.1 keras==2.8.0
 ```
+
+# Possible architectures
+
+[2019 Method](https://arxiv.org/pdf/1910.00964v2.pdf)
+
+
+Option A) Categorical variables are represented by entity embedding
+Option B) Categorical variables are represented as One-Hot-Encodings
+
+Numerical variables are then concatenated.
+
+
+
+## Data descriptions
+
+1. MinMax Rescale of numeric features; categorical features left unchanged (done via ```utils.normalize_data_mort_df()```)
+2. Time series of length <=48
+3. Pad end with zeros to render all same length of ```MXL```
+
 
 ### Extracted time-series
 

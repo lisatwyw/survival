@@ -6,10 +6,28 @@ pip install --no-index tensorflow==2.8 torch==1.13.1 keras==2.8.0
 
 ### Extracted time-series
 
+```
+
+```
+
 | Varname | Description |
 |--|--|
 |```apacheadmissiondx```| string of admission diagnosis for patients unit stay e.g.: Pulmonary valve surgery, Chest pain, unknown origin, Restrictive lung disease (i.e., Sarcoidosis, pulmonary fibrosis), etc." |  
 |```gender``` | 397 vs 398|
+| ```conf.dec_cat```| 6 | 'apacheadmissiondx', 'gender', 'GCS Total', 'Eyes', 'Motor', 'Verbal' |
+| ```conf.dec_num``` | 13 | 'admissionheight',
+ 'admissionweight',
+ 'age',
+ 'Heart Rate',
+ 'MAP (mmHg)',
+ 'Invasive BP Diastolic',
+ 'Invasive BP Systolic',
+ 'O2 Saturation',
+ 'Respiratory Rate',
+ 'Temperature (C)',
+ 'glucose',
+ 'FiO2',
+ 'pH'  |
 
 
 ### Labnames

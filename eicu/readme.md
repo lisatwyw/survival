@@ -4,15 +4,29 @@
 pip install --no-index tensorflow==2.8 torch==1.13.1 keras==2.8.0
 ```
 
+# Latest results
+
+```
+2023-03-10 
+
+OHE=1; exec( open('mlsurv_bench.py').read()  )
+
+===============
+Evaluation set: 1
+f1 0.6002918636583375, sen 1.4887892376681615, spec 1.4177740863787376, ppv 0.2545361615129057, npv 0.967687074829932, aucpr 0.4657964824440407, auc 0.8375865619037081, mcc 0.3380975685510748, specat90 0.5452026680348897, ===============
+Evaluation set: 2
+f1 0.6235308902786831, sen 0.8445440956651719, spec 0.708264119601329, ppv 0.2868020304568528, npv 0.9704125177809388, aucpr 0.5384004364745718, auc 0.8581810631229236, mcc 0.3770813113267653, specat90 0.6119186046511628, 
+ /home/lisat/scratch/opensource/eicu/mdls_val/set3_fd0_BS32_VAL2_MXL200_OHE1_bilstm_NL2_NU128
+
+```
+
 # Possible architectures
 
 [2019 Method](https://arxiv.org/pdf/1910.00964v2.pdf)
 
-
-Option A) Categorical variables are represented by entity embedding
-Option B) Categorical variables are represented as One-Hot-Encodings
-
-Numerical variables are then concatenated.
+- Option A) Categorical variables are represented by entity embedding
+- Option B) Categorical variables are represented as One-Hot-Encodings   ```OHE=1```
+- Numerical variables are then concatenated.
 
 
 

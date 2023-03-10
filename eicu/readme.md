@@ -18,7 +18,18 @@ Evaluation set: 2
 f1 0.6235308902786831, sen 0.8445440956651719, spec 0.708264119601329, ppv 0.2868020304568528, npv 0.9704125177809388, aucpr 0.5384004364745718, auc 0.8581810631229236, mcc 0.3770813113267653, specat90 0.6119186046511628, 
  /home/lisat/scratch/opensource/eicu/mdls_val/set3_fd0_BS32_VAL2_MXL200_OHE1_bilstm_NL2_NU128
 
+
+loss: 0.5657 - f1: 0.8215 - sensitivity: 0.8550 - specificity: 0.7725 - accuracy: 0.8138 - val_loss: 0.6991 - val_f1: 0.7660 - val_sensitivity: 0.8050 - val_specificity: 0.7065 - val_accuracy: 0.7557
 ```
+
+
+```
+
+
+loss: 0.6244 - f1: 0.7770 - sensitivity: 0.7750 - specificity: 0.7800 - accuracy: 0.7775 - val_loss: 0.6410 - val_f1: 0.7730 - val_sensitivity: 0.7790 - val_specificity: 0.7681 - val_accuracy: 0.7736
+
+```
+
 
 # Possible architectures
 

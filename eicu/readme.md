@@ -4,9 +4,11 @@
 pip install --no-index tensorflow==2.8 torch==1.13.1 keras==2.8.0
 ```
 
-1. Launch hub
-2. bash ~/ijob.sh 3 1 1
+# Execution 
 
+1. Launch [jupyterhub](https://jupyterhub.narval.computecanada.ca/)
+2. bash ~/ijob.sh 3 1 1
+3. cd ~/scratch/opensource/eicu/eICU_Benchmark/
 
 # Latest results
 

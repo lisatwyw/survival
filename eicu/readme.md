@@ -13,11 +13,11 @@ pip install --no-index tensorflow==2.8 torch==1.13.1 keras==2.8.0
 # Latest results
 
 ```
-2023-03-10 
+OHE=1; exec( open('mlsurv_bench.py').read()  ) # 2023-03-10 
+```
 
-OHE=1; exec( open('mlsurv_bench.py').read()  )
-
-===============
+## bi-LSTM
+```
 Evaluation set: 1
 f1 0.6002918636583375, sen 1.4887892376681615, spec 1.4177740863787376, ppv 0.2545361615129057, npv 0.967687074829932, aucpr 0.4657964824440407, auc 0.8375865619037081, mcc 0.3380975685510748, specat90 0.5452026680348897, ===============
 Evaluation set: 2
@@ -25,11 +25,61 @@ f1 0.6235308902786831, sen 0.8445440956651719, spec 0.708264119601329, ppv 0.286
 
 /home/lisat/scratch/opensource/eicu/mdls_val/set3_fd0_BS32_VAL2_MXL200_OHE1_bilstm_NL2_NU128_BN0_DO0
 
+===============
+Evaluation set: 0
+f1 0.6836887361543171, sen 1.3871449925261585, spec 1.665905315614618, ppv 0.3495291902071563, npv 0.9649987972095261, aucpr 0.5450063458547288, auc 0.8751265644391156, mcc 0.4286397156354581, specat90 0.6283076923076922, ===============
+Evaluation set: 1
+f1 0.6346750952032226, sen 1.2002989536621824, spec 1.6154485049833887, ppv 0.29010115606936415, npv 0.9486647969759785, aucpr 0.41794374910896515, auc 0.8063345707703297, mcc 0.32938757783657985, specat90 0.4396100564391996, ===============
+Evaluation set: 2
+f1 0.6571826041127431, sen 0.7593423019431988, spec 0.7799003322259136, ppv 0.3239795918367347, npv 0.9588971151391371, aucpr 0.5029235705681877, auc 0.8461031117004109, mcc 0.3905626462102504, specat90 0.5550249169435215, 
+ /home/lisat/scratch/opensource/eicu/mdls_val/set3_fd0_BS32_VAL2_MXL100_OHE0_bilstm_NL2_NU128_BN1_DO0.3
+  
+===============
 
-loss: 0.5657 - f1: 0.8215 - sensitivity: 0.8550 - specificity: 0.7725 - accuracy: 0.8138 - val_loss: 0.6991 - val_f1: 0.7660 - val_sensitivity: 0.8050 - val_specificity: 0.7065 - val_accuracy: 0.7557
+Evaluation set: 0
+f1 0.7186771109808923, sen 1.4962630792227205, spec 1.7063953488372092, ppv 0.39518357678641924, npv 0.974158368895211, aucpr 0.6437524017776215, auc 0.9137520876716939, mcc 0.4952338850672574, specat90 0.7431794871794872, ===============
+Evaluation set: 1
+f1 0.6541701180308503, sen 1.203288490284006, spec 1.6621677740863787, ppv 0.3163064833005894, npv 0.9502611585944919, aucpr 0.4462991137377479, auc 0.8174314295583122, mcc 0.35737887053205114, specat90 0.4635197537198563, ===============
+Evaluation set: 2
+f1 0.6744435994454036, sen 0.750373692077728, spec 0.8037790697674418, ppv 0.3469246717346234, npv 0.9586428925210501, aucpr 0.48489948328072324, auc 0.8446272762937691, mcc 0.4114986144114981, specat90 0.5882475083056478, 
+ /home/lisat/scratch/opensource/eicu/mdls_val/set3_fd0_BS32_VAL2_MXL300_OHE0_bilstm_NL2_NU128_BN1_DO0.0
+
+
+
 ```
 
+## LSTM 
+
 ```
+Evaluation set: 0
+<string>:598: RuntimeWarning: invalid value encountered in long_scalars
+f1 0.47058255707321783, sen 0.0, spec 2.0245016611295683, ppv nan, npv 0.88886862977482, aucpr 0.10772436515088997, auc 0.4865317515407753, mcc 0.0, specat90 0.08820512820512816, ===============
+Evaluation set: 1
+<string>:598: RuntimeWarning: invalid value encountered in long_scalars
+f1 0.4704547648933089, sen 0.0, spec 2.0234634551495017, ppv nan, npv 0.8884127997082688, aucpr 0.10899167283456303, auc 0.495600727036154, mcc 0.0, specat90 0.10138532580810677, ===============
+Evaluation set: 2
+f1 0.46752742452189106, sen 0.0, spec 1.0, ppv nan, npv 0.8780309936189608, aucpr 0.11914685439539396, auc 0.4958211045394276, mcc 0.0, specat90 0.09115448504983392, 
+ /home/lisat/scratch/opensource/eicu/mdls_val/set3_fd0_BS32_VAL2_MXL200_OHE1_lstm_NL2_NU128_BN1_DO0.3
+ 
+===============
+Evaluation set: 0
+<string>:598: RuntimeWarning: invalid value encountered in long_scalars
+f1 0.47058255707321783, sen 0.0, spec 2.0245016611295683, ppv nan, npv 0.88886862977482, aucpr 0.11757455153477597, auc 0.5226236301297827, mcc 0.0, specat90 0.12, ===============
+Evaluation set: 1
+<string>:598: RuntimeWarning: invalid value encountered in long_scalars
+f1 0.4704547648933089, sen 0.0, spec 2.0234634551495017, ppv nan, npv 0.8884127997082688, aucpr 0.12039525313549654, auc 0.5293476292518033, mcc 0.0, specat90 0.12396100564391999, ===============
+Evaluation set: 2
+f1 0.46752742452189106, sen 0.0, spec 1.0, ppv nan, npv 0.8780309936189608, aucpr 0.12650056614099858, auc 0.5126141250639373, mcc 0.0, specat90 0.07578903654485047, 
+ /home/lisat/scratch/opensource/eicu/mdls_val/set3_fd0_BS32_VAL2_MXL200_OHE1_lstm_NL2_NU128_BN1_DO0.0
+```
+
+
+
+
+## GRU
+
+```
+
 Evaluation set: 0
 <string>:539: RuntimeWarning: invalid value encountered in long_scalars
 f1 0.47058255707321783, sen 0.0, spec 2.0245016611295683, ppv nan, npv 0.88886862977482, aucpr 0.10610183025794205, auc 0.47903662102185485, mcc 0.0, specat90 0.07189743589743591, ===============
@@ -40,16 +90,14 @@ Evaluation set: 2
 f1 0.46752742452189106, sen 0.0, spec 1.0, ppv nan, npv 0.8780309936189608, aucpr 0.1202017991908337, auc 0.47539141451762684, mcc 0.0, specat90 0.07059800664451832, 
 /home/lisat/scratch/opensource/eicu/mdls_val/set3_fd0_BS32_VAL2_MXL200_OHE1_gru_NL2_NU128_BN1_DO0.3
  
-```
-
-```
+===============
 Evaluation set: 0
 <string>:537: RuntimeWarning: invalid value encountered in long_scalars
-f1 0.10001640958319657, sen 1.8221225710014948, spec 0.0, ppv 0.11113137022518005, npv nan, aucpr 0.11183079662179618, auc 0.500616941166572, mcc 0.0, specat90 0.10461538461538467, ===============
+f1 0.10001640958319657, sen 1.8221225710014948, spec 0.0, ppv 0.11113137022518005, npv nan, aucpr 0.11183079662179618, auc 0.500616941166572, mcc 0.0, specat90 0.10461538461538467,  
 
 Evaluation set: 1
 <string>:537: RuntimeWarning: invalid value encountered in long_scalars
-f1 0.1003854670712704, sen 1.8295964125560538, spec 0.0, ppv 0.11158720029173125, npv nan, aucpr 0.11522300681586062, auc 0.5154381164129753, mcc 0.0, specat90 0.08660851718830165, ===============
+f1 0.1003854670712704, sen 1.8295964125560538, spec 0.0, ppv 0.11158720029173125, npv nan, aucpr 0.11522300681586062, auc 0.5154381164129753, mcc 0.0, specat90 0.08660851718830165,  
 
 Evaluation set: 2
 f1 0.1087097822554436, sen 1.0, spec 0.0, ppv 0.12196900638103919, npv nan, aucpr 0.12231280930669887, auc 0.4951821966141759, mcc 0.0, specat90 0.08990863787375414, 

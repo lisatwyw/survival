@@ -29,6 +29,32 @@ f1 0.6235308902786831, sen 0.8445440956651719, spec 0.708264119601329, ppv 0.286
 loss: 0.5657 - f1: 0.8215 - sensitivity: 0.8550 - specificity: 0.7725 - accuracy: 0.8138 - val_loss: 0.6991 - val_f1: 0.7660 - val_sensitivity: 0.8050 - val_specificity: 0.7065 - val_accuracy: 0.7557
 ```
 
+```
+Evaluation set: 0
+<string>:539: RuntimeWarning: invalid value encountered in long_scalars
+f1 0.47058255707321783, sen 0.0, spec 2.0245016611295683, ppv nan, npv 0.88886862977482, aucpr 0.10610183025794205, auc 0.47903662102185485, mcc 0.0, specat90 0.07189743589743591, ===============
+Evaluation set: 1
+<string>:539: RuntimeWarning: invalid value encountered in long_scalars
+f1 0.4704547648933089, sen 0.0, spec 2.0234634551495017, ppv nan, npv 0.8884127997082688, aucpr 0.10772383892937355, auc 0.4756227846021254, mcc 0.0, specat90 0.07080554130323247, ===============
+Evaluation set: 2
+f1 0.46752742452189106, sen 0.0, spec 1.0, ppv nan, npv 0.8780309936189608, aucpr 0.1202017991908337, auc 0.47539141451762684, mcc 0.0, specat90 0.07059800664451832, 
+/home/lisat/scratch/opensource/eicu/mdls_val/set3_fd0_BS32_VAL2_MXL200_OHE1_gru_NL2_NU128_BN1_DO0.3
+ 
+```
+
+```
+Evaluation set: 0
+<string>:537: RuntimeWarning: invalid value encountered in long_scalars
+f1 0.10001640958319657, sen 1.8221225710014948, spec 0.0, ppv 0.11113137022518005, npv nan, aucpr 0.11183079662179618, auc 0.500616941166572, mcc 0.0, specat90 0.10461538461538467, ===============
+
+Evaluation set: 1
+<string>:537: RuntimeWarning: invalid value encountered in long_scalars
+f1 0.1003854670712704, sen 1.8295964125560538, spec 0.0, ppv 0.11158720029173125, npv nan, aucpr 0.11522300681586062, auc 0.5154381164129753, mcc 0.0, specat90 0.08660851718830165, ===============
+
+Evaluation set: 2
+f1 0.1087097822554436, sen 1.0, spec 0.0, ppv 0.12196900638103919, npv nan, aucpr 0.12231280930669887, auc 0.4951821966141759, mcc 0.0, specat90 0.08990863787375414, 
+/home/lisat/scratch/opensource/eicu/mdls_val/set3_fd0_BS32_VAL2_MXL200_OHE1_gru_NL2_NU128_BN1_DO0.0
+```
 
 ```
 

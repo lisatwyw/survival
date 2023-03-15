@@ -10,7 +10,12 @@
 <details>
 <summary>MIMIC IV</summary>
  
-  
+[MIP article on mortality prediction](https://mdpi-res.com/d_attachment/diagnostics/diagnostics-12-01068/article_deploy/diagnostics-12-01068-v2.pdf?version=1650854020)
+- "to extract clinical information, including age, sex, weight, admission type, Logistic Organ Dysfunction Score (LODS), and APACHE" [ibid]
+- "For the prediction of mortality risk in ICU patients, the AUC of the XGBoost model was 0.918 (95%CI, 0.915–0.922), and the AUCs of logistic regression, SVM, and decision tree were 0.872 (95%CI, 0.867–0.877), 0.872 (95%CI, 0.867–0.877), and 0.852 (95%CI, 0.847–0.857), respectively. The calibration curves of logistic regression and support vector machine performed better than the other two models in the ranges 0–40% and
+70%–100%, respectively, while XGBoost performed better in the range of 40–70%." 
+
+
 ### ```Procedural codes```
 
 ```  

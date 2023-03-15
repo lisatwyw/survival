@@ -1,8 +1,43 @@
 # eicu's latest results
 
+
 ## 2023-03-14
 
-- corrected on ```NCAT=6```
+- Corrected on ```NCAT=6```
+
+### Summary
+```
+mort_0FD5_BS16_VAL3_MXL256_OHE0_bilstm_NL3_NU64_BN0_bce_DO0.3_LR0.0100
+Val:     |F1 0.455 | SEN 0.756 | SPEC 0.556 | PPV 0.191 | NPV 0.943 | AUC 0.727 | 
+Test:    |F1 0.445 | SEN 0.652 | SPEC 0.597 | PPV 0.166 | NPV 0.933 | AUC 0.678 | 
+
+
+
+mort_0FD5_BS64_VAL5_MXL400_OHE0_bilstm_NL2_NU64_BN1_DO0.3_bce_LR0.0010
+Val:     |F1 0.654 | SEN 0.776 | SPEC 0.771 | PPV 0.320 | NPV 0.961 | AUC 0.847 | 
+Test:    |F1 0.644 | SEN 0.703 | SPEC 0.797 | PPV 0.298 | NPV 0.956 | AUC 0.824 | 
+
+
+
+mort_1FD5_BS16_VAL10_MXL400_OHE0_bilstm_NL2_NU64_BN1_DO0.3_bce_LR0.0010
+Val:     |F1 0.694 | SEN 0.612 | SPEC 0.879 | PPV 0.387 | NPV 0.948 | AUC 0.837 | 
+Test:    |F1 0.678 | SEN 0.626 | SPEC 0.858 | PPV 0.366 | NPV 0.946 | AUC 0.830 | 
+
+
+
+mort_1FD5_BS16_VAL10_MXL400_OHE1_bilstm_NL3_NU64_BN0_DO0.3_bce_LR0.0100
+Val:     |F1 0.652 | SEN 0.659 | SPEC 0.838 | PPV 0.315 | NPV 0.956 | AUC 0.848 | 
+Test:    |F1 0.640 | SEN 0.680 | SPEC 0.819 | PPV 0.326 | NPV 0.952 | AUC 0.835 | 
+mort_2FD5_BS16_VAL10_MXL400_OHE1_bilstm_NL3_NU64_BN0_DO0.3_bce_LR0.0100
+Val:     |F1 0.629 | SEN 0.596 | SPEC 0.835 | PPV 0.289 | NPV 0.948 | AUC 0.811 | 
+Test:    |F1 0.622 | SEN 0.692 | SPEC 0.771 | PPV 0.294 | NPV 0.948 | AUC 0.843 | 
+mort_3FD5_BS16_VAL10_MXL400_OHE1_bilstm_NL3_NU64_BN0_DO0.3_bce_LR0.0100
+Val:     |F1 0.589 | SEN 0.751 | SPEC 0.727 | PPV 0.256 | NPV 0.959 | AUC 0.803 | 
+Test:    |F1 0.614 | SEN 0.782 | SPEC 0.741 | PPV 0.278 | NPV 0.964 | AUC 0.847 | 
+```
+
+
+# w/ joint loss
 
 ```
 ===============
@@ -24,6 +59,26 @@ Evaluation set: 2
 F1 0.109, SEN 0.949, SPEC 0.021, PPV 0.119, NPV 0.750, AUCPR 0.113, AUC 0.473, MCC -0.062, SPECAT90 0.045, 
 
 /home/lisat/scratch/opensource/eicu/mdls_val/mort_0FD5_BS64_VAL5_MXL256_OHE0_bilstm_NL3_NU64_BN1_DO0.0_LR0.0010
+
+```
+
+### w/o joint loss
+
+```
+===============
+
+loss: 1.8870 - f1: 0.7984 - sensitivity: 0.8100 - specificity: 0.7800 - accuracy: 0.7950 - val_loss: 2.0390 - val_f1: 0.7499 - val_sensitivity: 0.8451 - val_specificity: 0.5861 - val_accuracy: 0.7156
+
+Model-fitting done; saving the final model wts...
+
+Evaluation set: 0
+F1 0.635, SEN 0.841, SPEC 0.741, PPV 0.289, NPV 0.974, AUCPR 0.519, AUC 0.871, MCC 0.391, SPECAT90 0.641, ===============
+Evaluation set: 1
+F1 0.592, SEN 0.743, SPEC 0.714, PPV 0.246, NPV 0.957, AUCPR 0.423, AUC 0.804, MCC 0.305, SPECAT90 0.443, ===============
+Evaluation set: 2
+F1 0.602, SEN 0.816, SPEC 0.688, PPV 0.266, NPV 0.964, AUCPR 0.472, AUC 0.835, MCC 0.341, SPECAT90 0.521, 
+
+/home/lisat/scratch/opensource/eicu/mdls_val/mort_0FD5_BS16_VAL10_MXL256_OHE0_bilstm_NL3_NU64_BN1_DO0.0_LR0.0010
 
 ```
 

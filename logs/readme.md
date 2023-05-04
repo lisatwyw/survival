@@ -2,15 +2,12 @@
 
 ## 2023-05-04
 
-
-CL
-7 categories  (ethnicity added back )
-
+- CL
+- 7 categories  (ethnicity added back )
 
 ## 2023-05-03
-
-CL not available
-6 categories (ethnicity dropped)
+- CL not available
+- 6 categories (ethnicity dropped)
 
 
 ### Excluding odd^ ones (RM=1)

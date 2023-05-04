@@ -4,7 +4,7 @@
 
 ### Excluding odd^ ones
 
-^Odd: unit discharged after hospital discharged
+^Odd: unit discharge after hospital discharge
 
 ```
 D5_BS128_VAL5_MXL400_OHE0_ARCbilstm_NL2_NU64_BN1_DO0.2_joint_LR0.0008_LS0_LWT1.5_RM1 | SR=1 | 

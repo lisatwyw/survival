@@ -2,7 +2,18 @@
 
 ## 2023-05-04
 
-### Excluding odd^ ones
+
+CL
+7 categories  (ethnicity added back )
+
+
+## 2023-05-03
+
+CL not available
+6 categories (ethnicity dropped)
+
+
+### Excluding odd^ ones (RM=1)
 
 ^Odd: unit discharge after hospital discharge
 

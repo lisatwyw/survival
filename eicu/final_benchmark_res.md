@@ -1,3 +1,15 @@
+# Cox
+
+```
+CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
+ cox-NR-TI0-1000 trn, 66.7 $\pm$ 3.6 & 66.3 $\pm$ 3.2 & 62.8 $\pm$ 1.3 & 62.9 $\pm$ 3.5 & 47.9 $\pm$ 1.9 & 66.3 $\pm$ 1.1 & 11.7 $\pm$ 0.5 & 60.8 $\pm$ 1.4 & 60.8 $\pm$ 5.7 & 
+ cox-NR-TI0-1000 val, 69.0 $\pm$ 4.0 & 66.8 $\pm$ 3.1 & 69.1 $\pm$ 5.0 & 64.8 $\pm$ 2.7 & 51.4 $\pm$ 3.6 & 68.7 $\pm$ 0.9 & 11.7 $\pm$ 0.7 & 66.2 $\pm$ 3.5 & 64.0 $\pm$ 8.1 & 
+ cox-NR-TI0-1000 tst, 66.2 $\pm$ 2.5 & 65.0 $\pm$ 2.2 & 63.0 $\pm$ 1.6 & 64.3 $\pm$ 3.6 & 48.5 $\pm$ 1.5 & 66.6 $\pm$ 2.9 & 11.8 $\pm$ 1.5 & 60.6 $\pm$ 14.6 & 53.1 $\pm$ 6.6 & 
+
+```
+
+# DeepHit
+
 ```
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
  deephit1000 trn, 56.3 $\pm$ 11.4 & 55.4 $\pm$ 8.7 & 56.1 $\pm$ 10.5 & 56.5 $\pm$ 6.9 & 44.4 $\pm$ 6.1 & 63.7 $\pm$ 5.1 & 55.0 $\pm$ 4.7 & 51.7 $\pm$ 5.0 & 52.1 $\pm$ 2.5 & 

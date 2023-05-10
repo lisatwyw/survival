@@ -71,142 +71,178 @@ CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1001 trn, 64.9 $\pm$ 3.7 & 63.6 $\pm$ 3.0 & 61.9 $\pm$ 3.8 & 60.5 $\pm$ 1.9 & 47.2 $\pm$ 1.7 & 66.0 $\pm$ 2.6 & 59.4 $\pm$ 5.7 & 62.4 $\pm$ 1.7 & 58.6 $\pm$ 4.9 & 
- deephit-NR-TI0-1001 val, 64.0 $\pm$ 4.2 & 63.0 $\pm$ 2.8 & 63.3 $\pm$ 4.8 & 62.2 $\pm$ 3.6 & 49.3 $\pm$ 2.4 & 67.0 $\pm$ 4.7 & 59.7 $\pm$ 8.3 & 65.6 $\pm$ 2.2 & 59.9 $\pm$ 7.2 & 
- deephit-NR-TI0-1001 tst, 63.0 $\pm$ 3.3 & 62.3 $\pm$ 3.1 & 61.3 $\pm$ 2.6 & 59.6 $\pm$ 4.0 & 46.8 $\pm$ 2.0 & 65.3 $\pm$ 2.8 & 60.3 $\pm$ 9.6 & 58.7 $\pm$ 4.0 & 52.1 $\pm$ 5.8 & 
+ deephit-NR-TI0-1001 trn, CD-AUC 64.9 $\pm$ 3.7 & aucpr 63.6 $\pm$ 3.0 & sen 61.9 $\pm$ 3.8 & spec 60.5 $\pm$ 1.9 & ppv 47.2 $\pm$ 1.7 & npv 66.0 $\pm$ 2.6 & ibs 59.4 $\pm$ 5.7 & uno_mn 62.4 $\pm$ 1.7 & har_mn 58.6 $\pm$ 4.9 & 
+ deephit-NR-TI0-1001 val, CD-AUC 64.0 $\pm$ 4.2 & aucpr 63.0 $\pm$ 2.8 & sen 63.3 $\pm$ 4.8 & spec 62.2 $\pm$ 3.6 & ppv 49.3 $\pm$ 2.4 & npv 67.0 $\pm$ 4.7 & ibs 59.7 $\pm$ 8.3 & uno_mn 65.6 $\pm$ 2.2 & har_mn 59.9 $\pm$ 7.2 & 
+ deephit-NR-TI0-1001 tst, CD-AUC 63.0 $\pm$ 3.3 & aucpr 62.3 $\pm$ 3.1 & sen 61.3 $\pm$ 2.6 & spec 59.6 $\pm$ 4.0 & ppv 46.8 $\pm$ 2.0 & npv 65.3 $\pm$ 2.8 & ibs 60.3 $\pm$ 9.6 & uno_mn 58.7 $\pm$ 4.0 & har_mn 52.1 $\pm$ 5.8 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1002 trn, 65.2 $\pm$ 3.0 & 63.5 $\pm$ 3.4 & 61.8 $\pm$ 2.6 & 62.0 $\pm$ 2.4 & 47.7 $\pm$ 1.2 & 66.3 $\pm$ 2.1 & 61.5 $\pm$ 5.5 & 59.7 $\pm$ 2.1 & 58.1 $\pm$ 5.6 & 
- deephit-NR-TI0-1002 val, 65.4 $\pm$ 4.4 & 63.1 $\pm$ 4.2 & 67.6 $\pm$ 5.1 & 61.3 $\pm$ 3.8 & 50.0 $\pm$ 2.0 & 68.2 $\pm$ 3.8 & 61.2 $\pm$ 8.2 & 60.2 $\pm$ 2.9 & 57.9 $\pm$ 8.5 & 
- deephit-NR-TI0-1002 tst, 63.5 $\pm$ 2.0 & 61.9 $\pm$ 2.0 & 61.5 $\pm$ 0.8 & 60.7 $\pm$ 2.7 & 47.4 $\pm$ 2.5 & 65.8 $\pm$ 2.1 & 62.0 $\pm$ 7.2 & 59.7 $\pm$ 11.2 & 51.1 $\pm$ 5.6 & 
+ deephit-NR-TI0-1002 trn, CD-AUC 65.2 $\pm$ 3.0 & aucpr 63.5 $\pm$ 3.4 & sen 61.8 $\pm$ 2.6 & spec 62.0 $\pm$ 2.4 & ppv 47.7 $\pm$ 1.2 & npv 66.3 $\pm$ 2.1 & ibs 61.5 $\pm$ 5.5 & uno_mn 59.7 $\pm$ 2.1 & har_mn 58.1 $\pm$ 5.6 & 
+ deephit-NR-TI0-1002 val, CD-AUC 65.4 $\pm$ 4.4 & aucpr 63.1 $\pm$ 4.2 & sen 67.6 $\pm$ 5.1 & spec 61.3 $\pm$ 3.8 & ppv 50.0 $\pm$ 2.0 & npv 68.2 $\pm$ 3.8 & ibs 61.2 $\pm$ 8.2 & uno_mn 60.2 $\pm$ 2.9 & har_mn 57.9 $\pm$ 8.5 & 
+ deephit-NR-TI0-1002 tst, CD-AUC 63.5 $\pm$ 2.0 & aucpr 61.9 $\pm$ 2.0 & sen 61.5 $\pm$ 0.8 & spec 60.7 $\pm$ 2.7 & ppv 47.4 $\pm$ 2.5 & npv 65.8 $\pm$ 2.1 & ibs 62.0 $\pm$ 7.2 & uno_mn 59.7 $\pm$ 11.2 & har_mn 51.1 $\pm$ 5.6 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1003 trn, 62.1 $\pm$ 1.8 & 60.5 $\pm$ 1.5 & 60.0 $\pm$ 2.0 & 58.8 $\pm$ 2.5 & 46.3 $\pm$ 1.4 & 64.7 $\pm$ 0.9 & 58.5 $\pm$ 1.8 & 59.1 $\pm$ 2.0 & 54.7 $\pm$ 4.9 & 
- deephit-NR-TI0-1003 val, 62.0 $\pm$ 2.4 & 61.0 $\pm$ 2.7 & 62.0 $\pm$ 2.3 & 60.5 $\pm$ 2.7 & 48.6 $\pm$ 2.0 & 65.0 $\pm$ 3.1 & 58.4 $\pm$ 4.1 & 50.5 $\pm$ 8.6 & 55.8 $\pm$ 6.8 & 
- deephit-NR-TI0-1003 tst, 60.5 $\pm$ 2.1 & 59.8 $\pm$ 1.0 & 58.4 $\pm$ 5.0 & 60.2 $\pm$ 3.2 & 46.2 $\pm$ 2.0 & 64.5 $\pm$ 2.8 & 58.6 $\pm$ 7.0 & 55.8 $\pm$ 11.2 & 52.3 $\pm$ 4.7 & 
+ deephit-NR-TI0-1003 trn, CD-AUC 62.1 $\pm$ 1.8 & aucpr 60.5 $\pm$ 1.5 & sen 60.0 $\pm$ 2.0 & spec 58.8 $\pm$ 2.5 & ppv 46.3 $\pm$ 1.4 & npv 64.7 $\pm$ 0.9 & ibs 58.5 $\pm$ 1.8 & uno_mn 59.1 $\pm$ 2.0 & har_mn 54.7 $\pm$ 4.9 & 
+ deephit-NR-TI0-1003 val, CD-AUC 62.0 $\pm$ 2.4 & aucpr 61.0 $\pm$ 2.7 & sen 62.0 $\pm$ 2.3 & spec 60.5 $\pm$ 2.7 & ppv 48.6 $\pm$ 2.0 & npv 65.0 $\pm$ 3.1 & ibs 58.4 $\pm$ 4.1 & uno_mn 50.5 $\pm$ 8.6 & har_mn 55.8 $\pm$ 6.8 & 
+ deephit-NR-TI0-1003 tst, CD-AUC 60.5 $\pm$ 2.1 & aucpr 59.8 $\pm$ 1.0 & sen 58.4 $\pm$ 5.0 & spec 60.2 $\pm$ 3.2 & ppv 46.2 $\pm$ 2.0 & npv 64.5 $\pm$ 2.8 & ibs 58.6 $\pm$ 7.0 & uno_mn 55.8 $\pm$ 11.2 & har_mn 52.3 $\pm$ 4.7 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1004 trn, 64.7 $\pm$ 3.0 & 63.3 $\pm$ 2.8 & 60.0 $\pm$ 3.8 & 62.1 $\pm$ 1.6 & 47.3 $\pm$ 0.8 & 65.7 $\pm$ 2.4 & 56.8 $\pm$ 3.7 & 59.9 $\pm$ 1.5 & 57.0 $\pm$ 4.2 & 
- deephit-NR-TI0-1004 val, 65.4 $\pm$ 3.1 & 63.5 $\pm$ 3.0 & 65.1 $\pm$ 3.3 & 62.6 $\pm$ 3.9 & 50.0 $\pm$ 0.9 & 67.2 $\pm$ 3.5 & 56.5 $\pm$ 3.4 & 66.4 $\pm$ 12.5 & 58.0 $\pm$ 4.3 & 
- deephit-NR-TI0-1004 tst, 63.5 $\pm$ 4.6 & 62.7 $\pm$ 4.8 & 61.6 $\pm$ 3.9 & 60.5 $\pm$ 3.8 & 47.2 $\pm$ 2.3 & 65.7 $\pm$ 3.5 & 57.3 $\pm$ 2.5 & 60.5 $\pm$ 4.8 & 50.9 $\pm$ 3.7 & 
+ deephit-NR-TI0-1004 trn, CD-AUC 64.7 $\pm$ 3.0 & aucpr 63.3 $\pm$ 2.8 & sen 60.0 $\pm$ 3.8 & spec 62.1 $\pm$ 1.6 & ppv 47.3 $\pm$ 0.8 & npv 65.7 $\pm$ 2.4 & ibs 56.8 $\pm$ 3.7 & uno_mn 59.9 $\pm$ 1.5 & har_mn 57.0 $\pm$ 4.2 & 
+ deephit-NR-TI0-1004 val, CD-AUC 65.4 $\pm$ 3.1 & aucpr 63.5 $\pm$ 3.0 & sen 65.1 $\pm$ 3.3 & spec 62.6 $\pm$ 3.9 & ppv 50.0 $\pm$ 0.9 & npv 67.2 $\pm$ 3.5 & ibs 56.5 $\pm$ 3.4 & uno_mn 66.4 $\pm$ 12.5 & har_mn 58.0 $\pm$ 4.3 & 
+ deephit-NR-TI0-1004 tst, CD-AUC 63.5 $\pm$ 4.6 & aucpr 62.7 $\pm$ 4.8 & sen 61.6 $\pm$ 3.9 & spec 60.5 $\pm$ 3.8 & ppv 47.2 $\pm$ 2.3 & npv 65.7 $\pm$ 3.5 & ibs 57.3 $\pm$ 2.5 & uno_mn 60.5 $\pm$ 4.8 & har_mn 50.9 $\pm$ 3.7 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1005 trn, 64.2 $\pm$ 3.4 & 62.2 $\pm$ 3.8 & 61.3 $\pm$ 1.8 & 60.7 $\pm$ 4.0 & 47.1 $\pm$ 1.7 & 65.6 $\pm$ 1.9 & 58.1 $\pm$ 6.3 & 55.6 $\pm$ 5.2 & 57.2 $\pm$ 4.2 & 
- deephit-NR-TI0-1005 val, 64.5 $\pm$ 4.5 & 62.6 $\pm$ 4.4 & 64.0 $\pm$ 4.1 & 63.3 $\pm$ 8.2 & 50.1 $\pm$ 2.4 & 66.6 $\pm$ 3.2 & 57.9 $\pm$ 9.0 & 50.1 $\pm$ 14.8 & 59.3 $\pm$ 5.0 & 
- deephit-NR-TI0-1005 tst, 61.3 $\pm$ 3.5 & 60.4 $\pm$ 3.0 & 57.9 $\pm$ 5.0 & 61.0 $\pm$ 2.5 & 46.5 $\pm$ 1.7 & 64.6 $\pm$ 3.3 & 58.8 $\pm$ 9.3 & 55.2 $\pm$ 10.5 & 50.9 $\pm$ 3.4 & 
+ deephit-NR-TI0-1005 trn, CD-AUC 64.2 $\pm$ 3.4 & aucpr 62.2 $\pm$ 3.8 & sen 61.3 $\pm$ 1.8 & spec 60.7 $\pm$ 4.0 & ppv 47.1 $\pm$ 1.7 & npv 65.6 $\pm$ 1.9 & ibs 58.1 $\pm$ 6.3 & uno_mn 55.6 $\pm$ 5.2 & har_mn 57.2 $\pm$ 4.2 & 
+ deephit-NR-TI0-1005 val, CD-AUC 64.5 $\pm$ 4.5 & aucpr 62.6 $\pm$ 4.4 & sen 64.0 $\pm$ 4.1 & spec 63.3 $\pm$ 8.2 & ppv 50.1 $\pm$ 2.4 & npv 66.6 $\pm$ 3.2 & ibs 57.9 $\pm$ 9.0 & uno_mn 50.1 $\pm$ 14.8 & har_mn 59.3 $\pm$ 5.0 & 
+ deephit-NR-TI0-1005 tst, CD-AUC 61.3 $\pm$ 3.5 & aucpr 60.4 $\pm$ 3.0 & sen 57.9 $\pm$ 5.0 & spec 61.0 $\pm$ 2.5 & ppv 46.5 $\pm$ 1.7 & npv 64.6 $\pm$ 3.3 & ibs 58.8 $\pm$ 9.3 & uno_mn 55.2 $\pm$ 10.5 & har_mn 50.9 $\pm$ 3.4 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1006 trn, 65.6 $\pm$ 2.2 & 63.0 $\pm$ 2.8 & 62.9 $\pm$ 1.5 & 60.8 $\pm$ 3.5 & 47.7 $\pm$ 1.3 & 66.4 $\pm$ 1.2 & 59.5 $\pm$ 7.1 & 54.8 $\pm$ 3.9 & 56.6 $\pm$ 6.3 & 
- deephit-NR-TI0-1006 val, 64.0 $\pm$ 1.6 & 62.9 $\pm$ 2.2 & 64.4 $\pm$ 2.5 & 60.9 $\pm$ 3.4 & 49.1 $\pm$ 1.8 & 66.3 $\pm$ 3.0 & 59.4 $\pm$ 9.2 & 56.1 $\pm$ 12.2 & 57.8 $\pm$ 7.8 & 
- deephit-NR-TI0-1006 tst, 62.0 $\pm$ 3.3 & 61.2 $\pm$ 2.7 & 61.4 $\pm$ 2.8 & 58.5 $\pm$ 2.5 & 46.5 $\pm$ 0.9 & 65.2 $\pm$ 3.2 & 59.7 $\pm$ 7.9 & 57.7 $\pm$ 1.9 & 53.0 $\pm$ 6.3 & 
+ deephit-NR-TI0-1006 trn, CD-AUC 65.6 $\pm$ 2.2 & aucpr 63.0 $\pm$ 2.8 & sen 62.9 $\pm$ 1.5 & spec 60.8 $\pm$ 3.5 & ppv 47.7 $\pm$ 1.3 & npv 66.4 $\pm$ 1.2 & ibs 59.5 $\pm$ 7.1 & uno_mn 54.8 $\pm$ 3.9 & har_mn 56.6 $\pm$ 6.3 & 
+ deephit-NR-TI0-1006 val, CD-AUC 64.0 $\pm$ 1.6 & aucpr 62.9 $\pm$ 2.2 & sen 64.4 $\pm$ 2.5 & spec 60.9 $\pm$ 3.4 & ppv 49.1 $\pm$ 1.8 & npv 66.3 $\pm$ 3.0 & ibs 59.4 $\pm$ 9.2 & uno_mn 56.1 $\pm$ 12.2 & har_mn 57.8 $\pm$ 7.8 & 
+ deephit-NR-TI0-1006 tst, CD-AUC 62.0 $\pm$ 3.3 & aucpr 61.2 $\pm$ 2.7 & sen 61.4 $\pm$ 2.8 & spec 58.5 $\pm$ 2.5 & ppv 46.5 $\pm$ 0.9 & npv 65.2 $\pm$ 3.2 & ibs 59.7 $\pm$ 7.9 & uno_mn 57.7 $\pm$ 1.9 & har_mn 53.0 $\pm$ 6.3 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1007 trn, 64.8 $\pm$ 2.7 & 62.7 $\pm$ 3.2 & 62.1 $\pm$ 1.4 & 60.4 $\pm$ 3.4 & 47.4 $\pm$ 1.7 & 66.0 $\pm$ 0.8 & 61.0 $\pm$ 4.2 & 56.7 $\pm$ 7.1 & 56.9 $\pm$ 5.6 & 
- deephit-NR-TI0-1007 val, 64.4 $\pm$ 3.7 & 61.3 $\pm$ 4.6 & 64.5 $\pm$ 4.1 & 62.4 $\pm$ 3.7 & 49.9 $\pm$ 3.0 & 66.8 $\pm$ 1.6 & 60.8 $\pm$ 6.0 & 51.5 $\pm$ 10.0 & 57.2 $\pm$ 7.4 & 
- deephit-NR-TI0-1007 tst, 62.1 $\pm$ 2.9 & 60.6 $\pm$ 2.9 & 59.4 $\pm$ 1.7 & 60.7 $\pm$ 3.6 & 46.9 $\pm$ 2.2 & 64.9 $\pm$ 2.2 & 61.1 $\pm$ 8.2 & 61.4 $\pm$ 9.4 & 51.2 $\pm$ 6.3 & 
+ deephit-NR-TI0-1007 trn, CD-AUC 64.8 $\pm$ 2.7 & aucpr 62.7 $\pm$ 3.2 & sen 62.1 $\pm$ 1.4 & spec 60.4 $\pm$ 3.4 & ppv 47.4 $\pm$ 1.7 & npv 66.0 $\pm$ 0.8 & ibs 61.0 $\pm$ 4.2 & uno_mn 56.7 $\pm$ 7.1 & har_mn 56.9 $\pm$ 5.6 & 
+ deephit-NR-TI0-1007 val, CD-AUC 64.4 $\pm$ 3.7 & aucpr 61.3 $\pm$ 4.6 & sen 64.5 $\pm$ 4.1 & spec 62.4 $\pm$ 3.7 & ppv 49.9 $\pm$ 3.0 & npv 66.8 $\pm$ 1.6 & ibs 60.8 $\pm$ 6.0 & uno_mn 51.5 $\pm$ 10.0 & har_mn 57.2 $\pm$ 7.4 & 
+ deephit-NR-TI0-1007 tst, CD-AUC 62.1 $\pm$ 2.9 & aucpr 60.6 $\pm$ 2.9 & sen 59.4 $\pm$ 1.7 & spec 60.7 $\pm$ 3.6 & ppv 46.9 $\pm$ 2.2 & npv 64.9 $\pm$ 2.2 & ibs 61.1 $\pm$ 8.2 & uno_mn 61.4 $\pm$ 9.4 & har_mn 51.2 $\pm$ 6.3 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1008 trn, 59.9 $\pm$ 3.1 & 59.3 $\pm$ 2.7 & 56.9 $\pm$ 2.6 & 58.7 $\pm$ 2.3 & 45.2 $\pm$ 1.3 & 63.3 $\pm$ 1.9 & 58.3 $\pm$ 3.5 & 51.7 $\pm$ 7.6 & 51.4 $\pm$ 5.6 & 
- deephit-NR-TI0-1008 val, 58.6 $\pm$ 4.0 & 58.8 $\pm$ 2.8 & 58.3 $\pm$ 6.2 & 58.4 $\pm$ 2.9 & 46.8 $\pm$ 1.5 & 63.3 $\pm$ 3.9 & 58.0 $\pm$ 5.8 & 50.5 $\pm$ 5.6 & 53.9 $\pm$ 7.4 & 
- deephit-NR-TI0-1008 tst, 58.6 $\pm$ 4.9 & 58.8 $\pm$ 4.5 & 56.8 $\pm$ 3.8 & 58.3 $\pm$ 3.9 & 45.2 $\pm$ 1.9 & 63.2 $\pm$ 3.5 & 59.0 $\pm$ 7.3 & 55.5 $\pm$ 8.6 & 48.0 $\pm$ 3.5 & 
+ deephit-NR-TI0-1008 trn, CD-AUC 59.9 $\pm$ 3.1 & aucpr 59.3 $\pm$ 2.7 & sen 56.9 $\pm$ 2.6 & spec 58.7 $\pm$ 2.3 & ppv 45.2 $\pm$ 1.3 & npv 63.3 $\pm$ 1.9 & ibs 58.3 $\pm$ 3.5 & uno_mn 51.7 $\pm$ 7.6 & har_mn 51.4 $\pm$ 5.6 & 
+ deephit-NR-TI0-1008 val, CD-AUC 58.6 $\pm$ 4.0 & aucpr 58.8 $\pm$ 2.8 & sen 58.3 $\pm$ 6.2 & spec 58.4 $\pm$ 2.9 & ppv 46.8 $\pm$ 1.5 & npv 63.3 $\pm$ 3.9 & ibs 58.0 $\pm$ 5.8 & uno_mn 50.5 $\pm$ 5.6 & har_mn 53.9 $\pm$ 7.4 & 
+ deephit-NR-TI0-1008 tst, CD-AUC 58.6 $\pm$ 4.9 & aucpr 58.8 $\pm$ 4.5 & sen 56.8 $\pm$ 3.8 & spec 58.3 $\pm$ 3.9 & ppv 45.2 $\pm$ 1.9 & npv 63.2 $\pm$ 3.5 & ibs 59.0 $\pm$ 7.3 & uno_mn 55.5 $\pm$ 8.6 & har_mn 48.0 $\pm$ 3.5 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1009 trn, 62.3 $\pm$ 2.7 & 60.7 $\pm$ 3.5 & 58.5 $\pm$ 2.3 & 60.9 $\pm$ 2.8 & 46.5 $\pm$ 1.4 & 64.6 $\pm$ 1.1 & 54.5 $\pm$ 2.1 & 55.8 $\pm$ 6.2 & 56.3 $\pm$ 7.8 & 
- deephit-NR-TI0-1009 val, 61.5 $\pm$ 3.6 & 60.0 $\pm$ 2.4 & 62.2 $\pm$ 3.2 & 59.5 $\pm$ 2.8 & 48.2 $\pm$ 1.9 & 64.8 $\pm$ 3.3 & 54.2 $\pm$ 4.1 & 58.4 $\pm$ 7.7 & 57.7 $\pm$ 9.2 & 
- deephit-NR-TI0-1009 tst, 60.6 $\pm$ 3.8 & 59.4 $\pm$ 3.6 & 58.9 $\pm$ 4.7 & 59.7 $\pm$ 3.1 & 46.1 $\pm$ 1.2 & 64.4 $\pm$ 3.3 & 55.0 $\pm$ 5.9 & 62.6 $\pm$ 6.9 & 52.4 $\pm$ 5.6 & 
+ deephit-NR-TI0-1009 trn, CD-AUC 62.3 $\pm$ 2.7 & aucpr 60.7 $\pm$ 3.5 & sen 58.5 $\pm$ 2.3 & spec 60.9 $\pm$ 2.8 & ppv 46.5 $\pm$ 1.4 & npv 64.6 $\pm$ 1.1 & ibs 54.5 $\pm$ 2.1 & uno_mn 55.8 $\pm$ 6.2 & har_mn 56.3 $\pm$ 7.8 & 
+ deephit-NR-TI0-1009 val, CD-AUC 61.5 $\pm$ 3.6 & aucpr 60.0 $\pm$ 2.4 & sen 62.2 $\pm$ 3.2 & spec 59.5 $\pm$ 2.8 & ppv 48.2 $\pm$ 1.9 & npv 64.8 $\pm$ 3.3 & ibs 54.2 $\pm$ 4.1 & uno_mn 58.4 $\pm$ 7.7 & har_mn 57.7 $\pm$ 9.2 & 
+ deephit-NR-TI0-1009 tst, CD-AUC 60.6 $\pm$ 3.8 & aucpr 59.4 $\pm$ 3.6 & sen 58.9 $\pm$ 4.7 & spec 59.7 $\pm$ 3.1 & ppv 46.1 $\pm$ 1.2 & npv 64.4 $\pm$ 3.3 & ibs 55.0 $\pm$ 5.9 & uno_mn 62.6 $\pm$ 6.9 & har_mn 52.4 $\pm$ 5.6 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1010 trn, 62.7 $\pm$ 3.3 & 60.6 $\pm$ 3.3 & 59.1 $\pm$ 3.9 & 60.9 $\pm$ 1.7 & 46.6 $\pm$ 1.1 & 65.1 $\pm$ 2.6 & 57.9 $\pm$ 4.0 & 57.8 $\pm$ 3.3 & 56.9 $\pm$ 5.9 & 
- deephit-NR-TI0-1010 val, 61.9 $\pm$ 4.0 & 60.8 $\pm$ 3.2 & 61.4 $\pm$ 4.2 & 60.6 $\pm$ 2.8 & 48.2 $\pm$ 1.4 & 65.1 $\pm$ 4.7 & 57.8 $\pm$ 4.7 & 54.8 $\pm$ 15.0 & 58.0 $\pm$ 5.5 & 
- deephit-NR-TI0-1010 tst, 59.9 $\pm$ 2.8 & 58.6 $\pm$ 2.1 & 57.8 $\pm$ 3.8 & 60.4 $\pm$ 4.1 & 46.2 $\pm$ 1.6 & 64.1 $\pm$ 2.3 & 58.3 $\pm$ 4.7 & 56.5 $\pm$ 9.1 & 52.7 $\pm$ 5.4 & 
+ deephit-NR-TI0-1010 trn, CD-AUC 62.7 $\pm$ 3.3 & aucpr 60.6 $\pm$ 3.3 & sen 59.1 $\pm$ 3.9 & spec 60.9 $\pm$ 1.7 & ppv 46.6 $\pm$ 1.1 & npv 65.1 $\pm$ 2.6 & ibs 57.9 $\pm$ 4.0 & uno_mn 57.8 $\pm$ 3.3 & har_mn 56.9 $\pm$ 5.9 & 
+ deephit-NR-TI0-1010 val, CD-AUC 61.9 $\pm$ 4.0 & aucpr 60.8 $\pm$ 3.2 & sen 61.4 $\pm$ 4.2 & spec 60.6 $\pm$ 2.8 & ppv 48.2 $\pm$ 1.4 & npv 65.1 $\pm$ 4.7 & ibs 57.8 $\pm$ 4.7 & uno_mn 54.8 $\pm$ 15.0 & har_mn 58.0 $\pm$ 5.5 & 
+ deephit-NR-TI0-1010 tst, CD-AUC 59.9 $\pm$ 2.8 & aucpr 58.6 $\pm$ 2.1 & sen 57.8 $\pm$ 3.8 & spec 60.4 $\pm$ 4.1 & ppv 46.2 $\pm$ 1.6 & npv 64.1 $\pm$ 2.3 & ibs 58.3 $\pm$ 4.7 & uno_mn 56.5 $\pm$ 9.1 & har_mn 52.7 $\pm$ 5.4 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1011 trn, 65.7 $\pm$ 2.6 & 63.7 $\pm$ 2.6 & 62.2 $\pm$ 1.8 & 62.0 $\pm$ 3.7 & 48.0 $\pm$ 1.3 & 66.4 $\pm$ 1.5 & 57.6 $\pm$ 5.4 & 56.0 $\pm$ 5.6 & 57.9 $\pm$ 6.7 & 
- deephit-NR-TI0-1011 val, 64.0 $\pm$ 3.9 & 62.6 $\pm$ 3.4 & 62.9 $\pm$ 4.5 & 61.8 $\pm$ 2.5 & 49.2 $\pm$ 2.0 & 65.9 $\pm$ 3.5 & 57.7 $\pm$ 7.2 & 52.0 $\pm$ 8.5 & 60.1 $\pm$ 6.4 & 
- deephit-NR-TI0-1011 tst, 63.6 $\pm$ 3.2 & 61.5 $\pm$ 2.8 & 62.3 $\pm$ 1.6 & 61.0 $\pm$ 3.2 & 47.6 $\pm$ 1.4 & 65.9 $\pm$ 3.0 & 58.7 $\pm$ 10.3 & 59.2 $\pm$ 5.3 & 52.8 $\pm$ 7.2 & 
+ deephit-NR-TI0-1011 trn, CD-AUC 65.7 $\pm$ 2.6 & aucpr 63.7 $\pm$ 2.6 & sen 62.2 $\pm$ 1.8 & spec 62.0 $\pm$ 3.7 & ppv 48.0 $\pm$ 1.3 & npv 66.4 $\pm$ 1.5 & ibs 57.6 $\pm$ 5.4 & uno_mn 56.0 $\pm$ 5.6 & har_mn 57.9 $\pm$ 6.7 & 
+ deephit-NR-TI0-1011 val, CD-AUC 64.0 $\pm$ 3.9 & aucpr 62.6 $\pm$ 3.4 & sen 62.9 $\pm$ 4.5 & spec 61.8 $\pm$ 2.5 & ppv 49.2 $\pm$ 2.0 & npv 65.9 $\pm$ 3.5 & ibs 57.7 $\pm$ 7.2 & uno_mn 52.0 $\pm$ 8.5 & har_mn 60.1 $\pm$ 6.4 & 
+ deephit-NR-TI0-1011 tst, CD-AUC 63.6 $\pm$ 3.2 & aucpr 61.5 $\pm$ 2.8 & sen 62.3 $\pm$ 1.6 & spec 61.0 $\pm$ 3.2 & ppv 47.6 $\pm$ 1.4 & npv 65.9 $\pm$ 3.0 & ibs 58.7 $\pm$ 10.3 & uno_mn 59.2 $\pm$ 5.3 & har_mn 52.8 $\pm$ 7.2 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1012 trn, 64.7 $\pm$ 1.3 & 62.6 $\pm$ 1.0 & 61.5 $\pm$ 2.4 & 59.9 $\pm$ 2.5 & 46.9 $\pm$ 0.5 & 65.7 $\pm$ 1.6 & 53.8 $\pm$ 5.4 & 60.9 $\pm$ 5.2 & 58.1 $\pm$ 6.5 & 
- deephit-NR-TI0-1012 val, 64.4 $\pm$ 2.6 & 61.5 $\pm$ 2.4 & 65.3 $\pm$ 4.3 & 59.9 $\pm$ 4.3 & 48.8 $\pm$ 2.1 & 66.7 $\pm$ 3.5 & 53.2 $\pm$ 5.0 & 52.5 $\pm$ 11.1 & 58.4 $\pm$ 6.3 & 
- deephit-NR-TI0-1012 tst, 62.6 $\pm$ 2.1 & 61.1 $\pm$ 1.7 & 59.6 $\pm$ 2.9 & 61.4 $\pm$ 2.5 & 47.0 $\pm$ 1.7 & 65.2 $\pm$ 2.8 & 54.0 $\pm$ 6.9 & 56.6 $\pm$ 9.4 & 52.6 $\pm$ 5.8 & 
+ deephit-NR-TI0-1012 trn, CD-AUC 64.7 $\pm$ 1.3 & aucpr 62.6 $\pm$ 1.0 & sen 61.5 $\pm$ 2.4 & spec 59.9 $\pm$ 2.5 & ppv 46.9 $\pm$ 0.5 & npv 65.7 $\pm$ 1.6 & ibs 53.8 $\pm$ 5.4 & uno_mn 60.9 $\pm$ 5.2 & har_mn 58.1 $\pm$ 6.5 & 
+ deephit-NR-TI0-1012 val, CD-AUC 64.4 $\pm$ 2.6 & aucpr 61.5 $\pm$ 2.4 & sen 65.3 $\pm$ 4.3 & spec 59.9 $\pm$ 4.3 & ppv 48.8 $\pm$ 2.1 & npv 66.7 $\pm$ 3.5 & ibs 53.2 $\pm$ 5.0 & uno_mn 52.5 $\pm$ 11.1 & har_mn 58.4 $\pm$ 6.3 & 
+ deephit-NR-TI0-1012 tst, CD-AUC 62.6 $\pm$ 2.1 & aucpr 61.1 $\pm$ 1.7 & sen 59.6 $\pm$ 2.9 & spec 61.4 $\pm$ 2.5 & ppv 47.0 $\pm$ 1.7 & npv 65.2 $\pm$ 2.8 & ibs 54.0 $\pm$ 6.9 & uno_mn 56.6 $\pm$ 9.4 & har_mn 52.6 $\pm$ 5.8 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1013 trn, 66.3 $\pm$ 1.5 & 64.9 $\pm$ 2.1 & 62.4 $\pm$ 2.1 & 62.7 $\pm$ 1.3 & 48.2 $\pm$ 0.7 & 66.9 $\pm$ 1.3 & 60.5 $\pm$ 5.9 & 59.1 $\pm$ 2.9 & 56.7 $\pm$ 5.4 & 
- deephit-NR-TI0-1013 val, 65.6 $\pm$ 3.7 & 63.1 $\pm$ 3.0 & 64.8 $\pm$ 3.0 & 62.7 $\pm$ 5.4 & 50.0 $\pm$ 3.5 & 67.4 $\pm$ 2.9 & 60.6 $\pm$ 7.8 & 58.0 $\pm$ 12.1 & 57.1 $\pm$ 6.4 & 
- deephit-NR-TI0-1013 tst, 64.4 $\pm$ 1.8 & 63.7 $\pm$ 1.9 & 61.4 $\pm$ 2.3 & 62.2 $\pm$ 2.0 & 47.7 $\pm$ 1.5 & 66.1 $\pm$ 2.9 & 61.0 $\pm$ 8.8 & 56.7 $\pm$ 6.4 & 50.5 $\pm$ 5.5 & 
+ deephit-NR-TI0-1013 trn, CD-AUC 66.3 $\pm$ 1.5 & aucpr 64.9 $\pm$ 2.1 & sen 62.4 $\pm$ 2.1 & spec 62.7 $\pm$ 1.3 & ppv 48.2 $\pm$ 0.7 & npv 66.9 $\pm$ 1.3 & ibs 60.5 $\pm$ 5.9 & uno_mn 59.1 $\pm$ 2.9 & har_mn 56.7 $\pm$ 5.4 & 
+ deephit-NR-TI0-1013 val, CD-AUC 65.6 $\pm$ 3.7 & aucpr 63.1 $\pm$ 3.0 & sen 64.8 $\pm$ 3.0 & spec 62.7 $\pm$ 5.4 & ppv 50.0 $\pm$ 3.5 & npv 67.4 $\pm$ 2.9 & ibs 60.6 $\pm$ 7.8 & uno_mn 58.0 $\pm$ 12.1 & har_mn 57.1 $\pm$ 6.4 & 
+ deephit-NR-TI0-1013 tst, CD-AUC 64.4 $\pm$ 1.8 & aucpr 63.7 $\pm$ 1.9 & sen 61.4 $\pm$ 2.3 & spec 62.2 $\pm$ 2.0 & ppv 47.7 $\pm$ 1.5 & npv 66.1 $\pm$ 2.9 & ibs 61.0 $\pm$ 8.8 & uno_mn 56.7 $\pm$ 6.4 & har_mn 50.5 $\pm$ 5.5 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1014 trn, 66.9 $\pm$ 1.9 & 65.4 $\pm$ 1.6 & 62.9 $\pm$ 3.2 & 63.2 $\pm$ 1.9 & 48.4 $\pm$ 1.5 & 66.9 $\pm$ 1.3 & 58.7 $\pm$ 3.8 & 58.8 $\pm$ 3.6 & 56.7 $\pm$ 4.7 & 
- deephit-NR-TI0-1014 val, 66.3 $\pm$ 1.9 & 65.6 $\pm$ 1.9 & 66.9 $\pm$ 3.6 & 60.8 $\pm$ 1.6 & 49.8 $\pm$ 2.2 & 67.3 $\pm$ 2.9 & 58.7 $\pm$ 4.1 & 63.6 $\pm$ 12.7 & 57.4 $\pm$ 5.9 & 
- deephit-NR-TI0-1014 tst, 62.6 $\pm$ 3.7 & 61.8 $\pm$ 3.0 & 59.1 $\pm$ 4.3 & 62.9 $\pm$ 1.5 & 47.5 $\pm$ 1.1 & 65.5 $\pm$ 3.6 & 59.2 $\pm$ 6.8 & 57.0 $\pm$ 3.6 & 52.3 $\pm$ 4.3 & 
+ deephit-NR-TI0-1014 trn, CD-AUC 66.9 $\pm$ 1.9 & aucpr 65.4 $\pm$ 1.6 & sen 62.9 $\pm$ 3.2 & spec 63.2 $\pm$ 1.9 & ppv 48.4 $\pm$ 1.5 & npv 66.9 $\pm$ 1.3 & ibs 58.7 $\pm$ 3.8 & uno_mn 58.8 $\pm$ 3.6 & har_mn 56.7 $\pm$ 4.7 & 
+ deephit-NR-TI0-1014 val, CD-AUC 66.3 $\pm$ 1.9 & aucpr 65.6 $\pm$ 1.9 & sen 66.9 $\pm$ 3.6 & spec 60.8 $\pm$ 1.6 & ppv 49.8 $\pm$ 2.2 & npv 67.3 $\pm$ 2.9 & ibs 58.7 $\pm$ 4.1 & uno_mn 63.6 $\pm$ 12.7 & har_mn 57.4 $\pm$ 5.9 & 
+ deephit-NR-TI0-1014 tst, CD-AUC 62.6 $\pm$ 3.7 & aucpr 61.8 $\pm$ 3.0 & sen 59.1 $\pm$ 4.3 & spec 62.9 $\pm$ 1.5 & ppv 47.5 $\pm$ 1.1 & npv 65.5 $\pm$ 3.6 & ibs 59.2 $\pm$ 6.8 & uno_mn 57.0 $\pm$ 3.6 & har_mn 52.3 $\pm$ 4.3 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1015 trn, 67.7 $\pm$ 2.0 & 65.8 $\pm$ 1.9 & 63.0 $\pm$ 2.0 & 64.0 $\pm$ 2.0 & 48.9 $\pm$ 1.2 & 67.3 $\pm$ 1.2 & 61.8 $\pm$ 3.9 & 60.0 $\pm$ 3.7 & 58.5 $\pm$ 5.2 & 
- deephit-NR-TI0-1015 val, 66.2 $\pm$ 1.3 & 63.7 $\pm$ 1.9 & 65.8 $\pm$ 2.3 & 63.1 $\pm$ 3.2 & 50.6 $\pm$ 1.5 & 67.7 $\pm$ 1.8 & 61.7 $\pm$ 6.3 & 56.5 $\pm$ 11.9 & 58.3 $\pm$ 6.4 & 
- deephit-NR-TI0-1015 tst, 64.6 $\pm$ 2.0 & 63.3 $\pm$ 1.0 & 61.5 $\pm$ 2.8 & 62.6 $\pm$ 0.6 & 47.9 $\pm$ 1.4 & 66.3 $\pm$ 2.9 & 61.9 $\pm$ 5.2 & 57.6 $\pm$ 8.8 & 50.9 $\pm$ 5.3 & 
+ deephit-NR-TI0-1015 trn, CD-AUC 67.7 $\pm$ 2.0 & aucpr 65.8 $\pm$ 1.9 & sen 63.0 $\pm$ 2.0 & spec 64.0 $\pm$ 2.0 & ppv 48.9 $\pm$ 1.2 & npv 67.3 $\pm$ 1.2 & ibs 61.8 $\pm$ 3.9 & uno_mn 60.0 $\pm$ 3.7 & har_mn 58.5 $\pm$ 5.2 & 
+ deephit-NR-TI0-1015 val, CD-AUC 66.2 $\pm$ 1.3 & aucpr 63.7 $\pm$ 1.9 & sen 65.8 $\pm$ 2.3 & spec 63.1 $\pm$ 3.2 & ppv 50.6 $\pm$ 1.5 & npv 67.7 $\pm$ 1.8 & ibs 61.7 $\pm$ 6.3 & uno_mn 56.5 $\pm$ 11.9 & har_mn 58.3 $\pm$ 6.4 & 
+ deephit-NR-TI0-1015 tst, CD-AUC 64.6 $\pm$ 2.0 & aucpr 63.3 $\pm$ 1.0 & sen 61.5 $\pm$ 2.8 & spec 62.6 $\pm$ 0.6 & ppv 47.9 $\pm$ 1.4 & npv 66.3 $\pm$ 2.9 & ibs 61.9 $\pm$ 5.2 & uno_mn 57.6 $\pm$ 8.8 & har_mn 50.9 $\pm$ 5.3 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1016 trn, 64.6 $\pm$ 3.4 & 62.9 $\pm$ 4.0 & 61.5 $\pm$ 1.7 & 61.2 $\pm$ 2.9 & 47.3 $\pm$ 1.5 & 65.7 $\pm$ 1.9 & 62.5 $\pm$ 4.0 & 59.9 $\pm$ 2.7 & 56.7 $\pm$ 5.5 & 
- deephit-NR-TI0-1016 val, 66.2 $\pm$ 2.8 & 63.5 $\pm$ 2.5 & 66.0 $\pm$ 4.6 & 63.2 $\pm$ 1.7 & 50.5 $\pm$ 1.4 & 67.3 $\pm$ 4.2 & 62.1 $\pm$ 5.6 & 61.2 $\pm$ 11.5 & 58.0 $\pm$ 6.9 & 
- deephit-NR-TI0-1016 tst, 63.7 $\pm$ 3.6 & 62.2 $\pm$ 3.9 & 61.2 $\pm$ 3.0 & 61.9 $\pm$ 2.7 & 47.4 $\pm$ 2.2 & 65.5 $\pm$ 2.8 & 63.5 $\pm$ 9.3 & 54.4 $\pm$ 7.9 & 53.1 $\pm$ 5.7 & 
+ deephit-NR-TI0-1016 trn, CD-AUC 64.6 $\pm$ 3.4 & aucpr 62.9 $\pm$ 4.0 & sen 61.5 $\pm$ 1.7 & spec 61.2 $\pm$ 2.9 & ppv 47.3 $\pm$ 1.5 & npv 65.7 $\pm$ 1.9 & ibs 62.5 $\pm$ 4.0 & uno_mn 59.9 $\pm$ 2.7 & har_mn 56.7 $\pm$ 5.5 & 
+ deephit-NR-TI0-1016 val, CD-AUC 66.2 $\pm$ 2.8 & aucpr 63.5 $\pm$ 2.5 & sen 66.0 $\pm$ 4.6 & spec 63.2 $\pm$ 1.7 & ppv 50.5 $\pm$ 1.4 & npv 67.3 $\pm$ 4.2 & ibs 62.1 $\pm$ 5.6 & uno_mn 61.2 $\pm$ 11.5 & har_mn 58.0 $\pm$ 6.9 & 
+ deephit-NR-TI0-1016 tst, CD-AUC 63.7 $\pm$ 3.6 & aucpr 62.2 $\pm$ 3.9 & sen 61.2 $\pm$ 3.0 & spec 61.9 $\pm$ 2.7 & ppv 47.4 $\pm$ 2.2 & npv 65.5 $\pm$ 2.8 & ibs 63.5 $\pm$ 9.3 & uno_mn 54.4 $\pm$ 7.9 & har_mn 53.1 $\pm$ 5.7 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1017 trn, 65.9 $\pm$ 1.2 & 64.8 $\pm$ 1.7 & 62.8 $\pm$ 1.0 & 61.1 $\pm$ 1.7 & 47.5 $\pm$ 0.9 & 66.6 $\pm$ 0.8 & 58.0 $\pm$ 1.6 & 59.9 $\pm$ 3.3 & 57.6 $\pm$ 4.9 & 
- deephit-NR-TI0-1017 val, 65.6 $\pm$ 1.0 & 64.1 $\pm$ 2.4 & 65.0 $\pm$ 2.3 & 63.9 $\pm$ 2.2 & 50.5 $\pm$ 2.0 & 67.5 $\pm$ 1.8 & 57.8 $\pm$ 1.9 & 65.8 $\pm$ 4.2 & 58.4 $\pm$ 6.5 & 
- deephit-NR-TI0-1017 tst, 64.8 $\pm$ 3.1 & 63.2 $\pm$ 2.9 & 61.6 $\pm$ 3.8 & 63.2 $\pm$ 0.9 & 48.1 $\pm$ 1.0 & 66.4 $\pm$ 3.6 & 57.9 $\pm$ 4.3 & 58.0 $\pm$ 13.0 & 52.5 $\pm$ 4.3 & 
+ deephit-NR-TI0-1017 trn, CD-AUC 65.9 $\pm$ 1.2 & aucpr 64.8 $\pm$ 1.7 & sen 62.8 $\pm$ 1.0 & spec 61.1 $\pm$ 1.7 & ppv 47.5 $\pm$ 0.9 & npv 66.6 $\pm$ 0.8 & ibs 58.0 $\pm$ 1.6 & uno_mn 59.9 $\pm$ 3.3 & har_mn 57.6 $\pm$ 4.9 & 
+ deephit-NR-TI0-1017 val, CD-AUC 65.6 $\pm$ 1.0 & aucpr 64.1 $\pm$ 2.4 & sen 65.0 $\pm$ 2.3 & spec 63.9 $\pm$ 2.2 & ppv 50.5 $\pm$ 2.0 & npv 67.5 $\pm$ 1.8 & ibs 57.8 $\pm$ 1.9 & uno_mn 65.8 $\pm$ 4.2 & har_mn 58.4 $\pm$ 6.5 & 
+ deephit-NR-TI0-1017 tst, CD-AUC 64.8 $\pm$ 3.1 & aucpr 63.2 $\pm$ 2.9 & sen 61.6 $\pm$ 3.8 & spec 63.2 $\pm$ 0.9 & ppv 48.1 $\pm$ 1.0 & npv 66.4 $\pm$ 3.6 & ibs 57.9 $\pm$ 4.3 & uno_mn 58.0 $\pm$ 13.0 & har_mn 52.5 $\pm$ 4.3 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1018 trn, 66.3 $\pm$ 2.5 & 65.1 $\pm$ 3.0 & 61.8 $\pm$ 2.7 & 62.9 $\pm$ 2.6 & 48.2 $\pm$ 1.6 & 66.3 $\pm$ 1.6 & 62.7 $\pm$ 5.2 & 61.9 $\pm$ 3.4 & 57.7 $\pm$ 4.5 & 
- deephit-NR-TI0-1018 val, 65.9 $\pm$ 1.9 & 64.5 $\pm$ 1.8 & 65.7 $\pm$ 4.2 & 62.8 $\pm$ 2.4 & 50.1 $\pm$ 2.4 & 67.3 $\pm$ 2.8 & 62.5 $\pm$ 6.8 & 58.6 $\pm$ 3.5 & 58.5 $\pm$ 5.4 & 
- deephit-NR-TI0-1018 tst, 62.2 $\pm$ 4.6 & 61.6 $\pm$ 4.3 & 59.6 $\pm$ 3.9 & 61.2 $\pm$ 4.3 & 47.0 $\pm$ 1.5 & 64.9 $\pm$ 3.4 & 63.0 $\pm$ 5.3 & 59.4 $\pm$ 11.0 & 52.1 $\pm$ 3.7 & 
+ deephit-NR-TI0-1018 trn, CD-AUC 66.3 $\pm$ 2.5 & aucpr 65.1 $\pm$ 3.0 & sen 61.8 $\pm$ 2.7 & spec 62.9 $\pm$ 2.6 & ppv 48.2 $\pm$ 1.6 & npv 66.3 $\pm$ 1.6 & ibs 62.7 $\pm$ 5.2 & uno_mn 61.9 $\pm$ 3.4 & har_mn 57.7 $\pm$ 4.5 & 
+ deephit-NR-TI0-1018 val, CD-AUC 65.9 $\pm$ 1.9 & aucpr 64.5 $\pm$ 1.8 & sen 65.7 $\pm$ 4.2 & spec 62.8 $\pm$ 2.4 & ppv 50.1 $\pm$ 2.4 & npv 67.3 $\pm$ 2.8 & ibs 62.5 $\pm$ 6.8 & uno_mn 58.6 $\pm$ 3.5 & har_mn 58.5 $\pm$ 5.4 & 
+ deephit-NR-TI0-1018 tst, CD-AUC 62.2 $\pm$ 4.6 & aucpr 61.6 $\pm$ 4.3 & sen 59.6 $\pm$ 3.9 & spec 61.2 $\pm$ 4.3 & ppv 47.0 $\pm$ 1.5 & npv 64.9 $\pm$ 3.4 & ibs 63.0 $\pm$ 5.3 & uno_mn 59.4 $\pm$ 11.0 & har_mn 52.1 $\pm$ 3.7 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1019 trn, 64.8 $\pm$ 1.7 & 62.8 $\pm$ 1.6 & 62.0 $\pm$ 1.8 & 60.7 $\pm$ 1.0 & 47.3 $\pm$ 0.3 & 65.9 $\pm$ 1.5 & 59.0 $\pm$ 5.4 & 59.6 $\pm$ 3.2 & 56.8 $\pm$ 5.6 & 
- deephit-NR-TI0-1019 val, 64.7 $\pm$ 3.4 & 63.1 $\pm$ 3.3 & 64.3 $\pm$ 3.6 & 62.2 $\pm$ 3.3 & 49.6 $\pm$ 1.1 & 66.3 $\pm$ 4.0 & 58.9 $\pm$ 6.4 & 64.4 $\pm$ 14.0 & 58.6 $\pm$ 5.4 & 
- deephit-NR-TI0-1019 tst, 62.5 $\pm$ 3.0 & 60.6 $\pm$ 2.9 & 60.7 $\pm$ 1.4 & 61.7 $\pm$ 3.0 & 47.4 $\pm$ 2.1 & 65.5 $\pm$ 2.7 & 59.5 $\pm$ 10.0 & 59.9 $\pm$ 4.4 & 53.5 $\pm$ 6.1 & 
+ deephit-NR-TI0-1019 trn, CD-AUC 64.8 $\pm$ 1.7 & aucpr 62.8 $\pm$ 1.6 & sen 62.0 $\pm$ 1.8 & spec 60.7 $\pm$ 1.0 & ppv 47.3 $\pm$ 0.3 & npv 65.9 $\pm$ 1.5 & ibs 59.0 $\pm$ 5.4 & uno_mn 59.6 $\pm$ 3.2 & har_mn 56.8 $\pm$ 5.6 & 
+ deephit-NR-TI0-1019 val, CD-AUC 64.7 $\pm$ 3.4 & aucpr 63.1 $\pm$ 3.3 & sen 64.3 $\pm$ 3.6 & spec 62.2 $\pm$ 3.3 & ppv 49.6 $\pm$ 1.1 & npv 66.3 $\pm$ 4.0 & ibs 58.9 $\pm$ 6.4 & uno_mn 64.4 $\pm$ 14.0 & har_mn 58.6 $\pm$ 5.4 & 
+ deephit-NR-TI0-1019 tst, CD-AUC 62.5 $\pm$ 3.0 & aucpr 60.6 $\pm$ 2.9 & sen 60.7 $\pm$ 1.4 & spec 61.7 $\pm$ 3.0 & ppv 47.4 $\pm$ 2.1 & npv 65.5 $\pm$ 2.7 & ibs 59.5 $\pm$ 10.0 & uno_mn 59.9 $\pm$ 4.4 & har_mn 53.5 $\pm$ 6.1 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1020 trn, 65.4 $\pm$ 1.7 & 62.7 $\pm$ 2.2 & 62.4 $\pm$ 1.8 & 61.2 $\pm$ 2.3 & 47.5 $\pm$ 1.2 & 66.2 $\pm$ 1.1 & 58.2 $\pm$ 3.4 & 57.3 $\pm$ 3.9 & 55.0 $\pm$ 6.1 & 
- deephit-NR-TI0-1020 val, 64.1 $\pm$ 2.3 & 62.8 $\pm$ 2.0 & 63.9 $\pm$ 3.5 & 61.5 $\pm$ 4.3 & 49.3 $\pm$ 2.9 & 65.9 $\pm$ 1.7 & 58.3 $\pm$ 5.8 & 50.0 $\pm$ 8.2 & 55.5 $\pm$ 4.9 & 
- deephit-NR-TI0-1020 tst, 61.3 $\pm$ 1.2 & 60.3 $\pm$ 1.3 & 59.7 $\pm$ 3.1 & 59.5 $\pm$ 1.8 & 46.3 $\pm$ 1.7 & 64.5 $\pm$ 2.6 & 58.5 $\pm$ 4.6 & 57.4 $\pm$ 8.2 & 51.2 $\pm$ 5.0 & 
+ deephit-NR-TI0-1020 trn, CD-AUC 65.4 $\pm$ 1.7 & aucpr 62.7 $\pm$ 2.2 & sen 62.4 $\pm$ 1.8 & spec 61.2 $\pm$ 2.3 & ppv 47.5 $\pm$ 1.2 & npv 66.2 $\pm$ 1.1 & ibs 58.2 $\pm$ 3.4 & uno_mn 57.3 $\pm$ 3.9 & har_mn 55.0 $\pm$ 6.1 & 
+ deephit-NR-TI0-1020 val, CD-AUC 64.1 $\pm$ 2.3 & aucpr 62.8 $\pm$ 2.0 & sen 63.9 $\pm$ 3.5 & spec 61.5 $\pm$ 4.3 & ppv 49.3 $\pm$ 2.9 & npv 65.9 $\pm$ 1.7 & ibs 58.3 $\pm$ 5.8 & uno_mn 50.0 $\pm$ 8.2 & har_mn 55.5 $\pm$ 4.9 & 
+ deephit-NR-TI0-1020 tst, CD-AUC 61.3 $\pm$ 1.2 & aucpr 60.3 $\pm$ 1.3 & sen 59.7 $\pm$ 3.1 & spec 59.5 $\pm$ 1.8 & ppv 46.3 $\pm$ 1.7 & npv 64.5 $\pm$ 2.6 & ibs 58.5 $\pm$ 4.6 & uno_mn 57.4 $\pm$ 8.2 & har_mn 51.2 $\pm$ 5.0 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1021 trn, 65.7 $\pm$ 1.3 & 64.2 $\pm$ 1.3 & 61.4 $\pm$ 2.4 & 63.0 $\pm$ 1.5 & 48.0 $\pm$ 1.0 & 66.3 $\pm$ 0.5 & 60.3 $\pm$ 5.8 & 58.1 $\pm$ 4.2 & 57.8 $\pm$ 6.5 & 
- deephit-NR-TI0-1021 val, 65.4 $\pm$ 1.2 & 63.8 $\pm$ 1.1 & 66.1 $\pm$ 4.2 & 62.1 $\pm$ 2.4 & 49.9 $\pm$ 1.8 & 67.3 $\pm$ 1.5 & 60.1 $\pm$ 4.3 & 57.4 $\pm$ 2.4 & 58.4 $\pm$ 6.7 & 
- deephit-NR-TI0-1021 tst, 61.2 $\pm$ 1.9 & 60.5 $\pm$ 1.4 & 59.6 $\pm$ 3.0 & 60.2 $\pm$ 1.9 & 46.7 $\pm$ 1.5 & 65.0 $\pm$ 2.9 & 60.7 $\pm$ 8.8 & 60.3 $\pm$ 3.9 & 52.1 $\pm$ 6.8 & 
+ deephit-NR-TI0-1021 trn, CD-AUC 65.7 $\pm$ 1.3 & aucpr 64.2 $\pm$ 1.3 & sen 61.4 $\pm$ 2.4 & spec 63.0 $\pm$ 1.5 & ppv 48.0 $\pm$ 1.0 & npv 66.3 $\pm$ 0.5 & ibs 60.3 $\pm$ 5.8 & uno_mn 58.1 $\pm$ 4.2 & har_mn 57.8 $\pm$ 6.5 & 
+ deephit-NR-TI0-1021 val, CD-AUC 65.4 $\pm$ 1.2 & aucpr 63.8 $\pm$ 1.1 & sen 66.1 $\pm$ 4.2 & spec 62.1 $\pm$ 2.4 & ppv 49.9 $\pm$ 1.8 & npv 67.3 $\pm$ 1.5 & ibs 60.1 $\pm$ 4.3 & uno_mn 57.4 $\pm$ 2.4 & har_mn 58.4 $\pm$ 6.7 & 
+ deephit-NR-TI0-1021 tst, CD-AUC 61.2 $\pm$ 1.9 & aucpr 60.5 $\pm$ 1.4 & sen 59.6 $\pm$ 3.0 & spec 60.2 $\pm$ 1.9 & ppv 46.7 $\pm$ 1.5 & npv 65.0 $\pm$ 2.9 & ibs 60.7 $\pm$ 8.8 & uno_mn 60.3 $\pm$ 3.9 & har_mn 52.1 $\pm$ 6.8 & 
 
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1022 trn, 62.4 $\pm$ 4.3 & 60.7 $\pm$ 4.5 & 59.9 $\pm$ 3.5 & 59.4 $\pm$ 3.0 & 46.3 $\pm$ 2.2 & 64.7 $\pm$ 2.2 & 57.1 $\pm$ 4.5 & 58.9 $\pm$ 5.0 & 55.3 $\pm$ 5.0 & 
- deephit-NR-TI0-1022 val, 62.9 $\pm$ 3.1 & 61.7 $\pm$ 3.6 & 63.2 $\pm$ 4.2 & 59.8 $\pm$ 5.4 & 48.6 $\pm$ 2.9 & 65.3 $\pm$ 3.0 & 57.2 $\pm$ 7.6 & 53.1 $\pm$ 11.1 & 56.2 $\pm$ 5.3 & 
- deephit-NR-TI0-1022 tst, 60.3 $\pm$ 3.3 & 58.7 $\pm$ 2.9 & 60.4 $\pm$ 4.3 & 57.8 $\pm$ 3.1 & 45.8 $\pm$ 2.0 & 64.5 $\pm$ 2.8 & 57.5 $\pm$ 6.6 & 52.6 $\pm$ 7.0 & 50.2 $\pm$ 3.5 & 
+ deephit-NR-TI0-1022 trn, CD-AUC 62.4 $\pm$ 4.3 & aucpr 60.7 $\pm$ 4.5 & sen 59.9 $\pm$ 3.5 & spec 59.4 $\pm$ 3.0 & ppv 46.3 $\pm$ 2.2 & npv 64.7 $\pm$ 2.2 & ibs 57.1 $\pm$ 4.5 & uno_mn 58.9 $\pm$ 5.0 & har_mn 55.3 $\pm$ 5.0 & 
+ deephit-NR-TI0-1022 val, CD-AUC 62.9 $\pm$ 3.1 & aucpr 61.7 $\pm$ 3.6 & sen 63.2 $\pm$ 4.2 & spec 59.8 $\pm$ 5.4 & ppv 48.6 $\pm$ 2.9 & npv 65.3 $\pm$ 3.0 & ibs 57.2 $\pm$ 7.6 & uno_mn 53.1 $\pm$ 11.1 & har_mn 56.2 $\pm$ 5.3 & 
+ deephit-NR-TI0-1022 tst, CD-AUC 60.3 $\pm$ 3.3 & aucpr 58.7 $\pm$ 2.9 & sen 60.4 $\pm$ 4.3 & spec 57.8 $\pm$ 3.1 & ppv 45.8 $\pm$ 2.0 & npv 64.5 $\pm$ 2.8 & ibs 57.5 $\pm$ 6.6 & uno_mn 52.6 $\pm$ 7.0 & har_mn 50.2 $\pm$ 3.5 & 
 
-# best
 
 CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
- deephit-NR-TI0-1023 trn, 67.1 $\pm$ 0.6 & 66.1 $\pm$ 1.2 & 63.2 $\pm$ 0.4 & 63.1 $\pm$ 1.1 & 47.8 $\pm$ 0.3 & 67.9 $\pm$ 0.3 & 61.8 $\pm$ 1.3 & 60.2 $\pm$ 3.5 & 52.5 $\pm$ 2.7 & 
- deephit-NR-TI0-1023 val, 67.8 $\pm$ 0.7 & 65.1 $\pm$ 1.5 & 70.2 $\pm$ 2.8 & 60.5 $\pm$ 2.7 & 48.4 $\pm$ 0.7 & 71.0 $\pm$ 0.2 & 61.0 $\pm$ 0.6 & 65.8 $\pm$ 1.1 & 52.9 $\pm$ 2.3 & 
- deephit-NR-TI0-1023 tst, 69.6 $\pm$ 1.9 & 69.4 $\pm$ 1.3 & 65.0 $\pm$ 2.4 & 65.7 $\pm$ 0.3 & 50.0 $\pm$ 0.7 & 68.6 $\pm$ 1.1 & 63.6 $\pm$ 5.1 & 55.4 $\pm$ 0.9 & 49.0 $\pm$ 0.8 & 
+ deephit-NR-TI0-1023 trn, CD-AUC 66.8 $\pm$ 1.5 & aucpr 65.8 $\pm$ 1.9 & sen 63.6 $\pm$ 1.9 & spec 62.4 $\pm$ 1.4 & ppv 48.1 $\pm$ 0.7 & npv 67.1 $\pm$ 1.7 & ibs 60.7 $\pm$ 3.7 & uno_mn 62.2 $\pm$ 3.0 & har_mn 58.0 $\pm$ 5.2 & 
+ deephit-NR-TI0-1023 val, CD-AUC 66.9 $\pm$ 3.0 & aucpr 65.2 $\pm$ 2.6 & sen 67.3 $\pm$ 4.5 & spec 63.3 $\pm$ 4.0 & ppv 50.6 $\pm$ 2.1 & npv 68.0 $\pm$ 3.4 & ibs 60.7 $\pm$ 5.7 & uno_mn 63.1 $\pm$ 4.1 & har_mn 59.2 $\pm$ 5.9 & 
+ deephit-NR-TI0-1023 tst, CD-AUC 66.2 $\pm$ 3.2 & aucpr 66.0 $\pm$ 2.9 & sen 62.9 $\pm$ 3.0 & spec 63.2 $\pm$ 2.0 & ppv 48.5 $\pm$ 1.9 & npv 66.7 $\pm$ 3.1 & ibs 60.7 $\pm$ 6.3 & uno_mn 55.9 $\pm$ 9.4 & har_mn 51.0 $\pm$ 5.4 & 
+
+
+CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
+ deephit-NR-TI0-1024 trn, CD-AUC 63.0 $\pm$ 3.8 & aucpr 60.9 $\pm$ 4.3 & sen 60.7 $\pm$ 2.9 & spec 59.6 $\pm$ 3.3 & ppv 46.6 $\pm$ 1.9 & npv 65.0 $\pm$ 1.5 & ibs 56.5 $\pm$ 6.6 & uno_mn 57.2 $\pm$ 4.4 & har_mn 56.8 $\pm$ 6.4 & 
+ deephit-NR-TI0-1024 val, CD-AUC 62.0 $\pm$ 4.1 & aucpr 60.7 $\pm$ 3.9 & sen 60.7 $\pm$ 4.4 & spec 61.4 $\pm$ 2.6 & ppv 48.3 $\pm$ 2.5 & npv 64.3 $\pm$ 3.1 & ibs 56.5 $\pm$ 8.8 & uno_mn 54.2 $\pm$ 10.9 & har_mn 58.8 $\pm$ 7.2 & 
+ deephit-NR-TI0-1024 tst, CD-AUC 58.8 $\pm$ 4.7 & aucpr 57.8 $\pm$ 4.4 & sen 58.1 $\pm$ 4.4 & spec 58.6 $\pm$ 3.7 & ppv 45.5 $\pm$ 2.3 & npv 63.8 $\pm$ 3.6 & ibs 57.3 $\pm$ 11.1 & uno_mn 56.8 $\pm$ 9.3 & har_mn 51.4 $\pm$ 6.1 & 
+
+
+CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
+ deephit-NR-TI0-1025 trn, CD-AUC 65.7 $\pm$ 2.2 & aucpr 64.0 $\pm$ 2.2 & sen 61.3 $\pm$ 2.7 & spec 62.5 $\pm$ 1.1 & ppv 47.7 $\pm$ 1.3 & npv 66.0 $\pm$ 1.1 & ibs 55.3 $\pm$ 3.1 & uno_mn 60.3 $\pm$ 4.8 & har_mn 57.2 $\pm$ 5.9 & 
+ deephit-NR-TI0-1025 val, CD-AUC 65.6 $\pm$ 1.6 & aucpr 63.9 $\pm$ 1.9 & sen 65.3 $\pm$ 2.8 & spec 62.7 $\pm$ 2.5 & ppv 50.1 $\pm$ 2.2 & npv 67.1 $\pm$ 1.9 & ibs 55.2 $\pm$ 3.6 & uno_mn 57.4 $\pm$ 12.0 & har_mn 57.6 $\pm$ 6.6 & 
+ deephit-NR-TI0-1025 tst, CD-AUC 63.8 $\pm$ 4.8 & aucpr 62.4 $\pm$ 4.3 & sen 60.5 $\pm$ 2.8 & spec 62.8 $\pm$ 5.1 & ppv 48.1 $\pm$ 1.6 & npv 65.8 $\pm$ 4.0 & ibs 55.9 $\pm$ 6.9 & uno_mn 60.6 $\pm$ 9.6 & har_mn 52.2 $\pm$ 6.1 & 
+
+
+CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
+ deephit-NR-TI0-1026 trn, CD-AUC 65.7 $\pm$ 1.5 & aucpr 64.6 $\pm$ 1.2 & sen 61.3 $\pm$ 2.5 & spec 63.1 $\pm$ 1.5 & ppv 48.0 $\pm$ 0.7 & npv 66.5 $\pm$ 1.6 & ibs 60.3 $\pm$ 1.8 & uno_mn 59.9 $\pm$ 4.0 & har_mn 58.1 $\pm$ 4.9 & 
+ deephit-NR-TI0-1026 val, CD-AUC 64.0 $\pm$ 2.2 & aucpr 62.7 $\pm$ 1.6 & sen 63.4 $\pm$ 2.8 & spec 62.2 $\pm$ 2.7 & ppv 49.6 $\pm$ 1.7 & npv 66.3 $\pm$ 2.8 & ibs 60.4 $\pm$ 4.1 & uno_mn 66.5 $\pm$ 10.4 & har_mn 59.4 $\pm$ 5.4 & 
+ deephit-NR-TI0-1026 tst, CD-AUC 63.5 $\pm$ 3.6 & aucpr 61.9 $\pm$ 3.9 & sen 62.7 $\pm$ 3.7 & spec 60.6 $\pm$ 4.3 & ppv 47.7 $\pm$ 1.1 & npv 66.3 $\pm$ 3.7 & ibs 61.1 $\pm$ 6.7 & uno_mn 57.7 $\pm$ 8.1 & har_mn 51.6 $\pm$ 4.7 & 
+
+
+CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
+ deephit-NR-TI0-1027 trn, CD-AUC 65.3 $\pm$ 2.8 & aucpr 63.6 $\pm$ 2.9 & sen 61.4 $\pm$ 3.0 & spec 62.1 $\pm$ 1.6 & ppv 47.5 $\pm$ 1.7 & npv 66.2 $\pm$ 0.8 & ibs 60.4 $\pm$ 3.7 & uno_mn 60.3 $\pm$ 2.4 & har_mn 57.2 $\pm$ 4.6 & 
+ deephit-NR-TI0-1027 val, CD-AUC 64.5 $\pm$ 3.7 & aucpr 62.1 $\pm$ 3.7 & sen 66.5 $\pm$ 4.2 & spec 60.2 $\pm$ 3.0 & ppv 49.3 $\pm$ 3.2 & npv 67.1 $\pm$ 2.1 & ibs 60.2 $\pm$ 4.4 & uno_mn 60.2 $\pm$ 4.7 & har_mn 57.3 $\pm$ 4.1 & 
+ deephit-NR-TI0-1027 tst, CD-AUC 62.3 $\pm$ 3.5 & aucpr 61.1 $\pm$ 3.9 & sen 59.2 $\pm$ 2.8 & spec 61.2 $\pm$ 2.5 & ppv 46.8 $\pm$ 2.2 & npv 65.1 $\pm$ 2.8 & ibs 60.6 $\pm$ 6.2 & uno_mn 62.4 $\pm$ 10.3 & har_mn 51.0 $\pm$ 3.9 & 
+
+
+CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
+ deephit-NR-TI0-1028 trn, CD-AUC 64.2 $\pm$ 2.8 & aucpr 62.7 $\pm$ 3.3 & sen 60.7 $\pm$ 2.5 & spec 61.0 $\pm$ 2.4 & ppv 47.2 $\pm$ 1.6 & npv 65.6 $\pm$ 1.2 & ibs 58.6 $\pm$ 5.3 & uno_mn 58.8 $\pm$ 3.9 & har_mn 56.9 $\pm$ 6.3 & 
+ deephit-NR-TI0-1028 val, CD-AUC 64.1 $\pm$ 3.4 & aucpr 62.9 $\pm$ 3.3 & sen 64.4 $\pm$ 3.7 & spec 61.7 $\pm$ 3.3 & ppv 49.4 $\pm$ 2.8 & npv 66.1 $\pm$ 2.1 & ibs 58.3 $\pm$ 8.0 & uno_mn 64.6 $\pm$ 13.4 & har_mn 58.2 $\pm$ 7.6 & 
+ deephit-NR-TI0-1028 tst, CD-AUC 61.5 $\pm$ 2.8 & aucpr 60.1 $\pm$ 2.6 & sen 60.8 $\pm$ 3.1 & spec 59.5 $\pm$ 1.5 & ppv 46.6 $\pm$ 1.9 & npv 65.2 $\pm$ 2.8 & ibs 59.2 $\pm$ 8.6 & uno_mn 60.4 $\pm$ 4.9 & har_mn 51.7 $\pm$ 5.1 & 
+
+
+CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
+ deephit-NR-TI0-1029 trn, CD-AUC 64.5 $\pm$ 2.0 & aucpr 62.8 $\pm$ 2.3 & sen 61.2 $\pm$ 1.5 & spec 60.6 $\pm$ 1.9 & ppv 46.9 $\pm$ 1.6 & npv 65.5 $\pm$ 0.7 & ibs 57.3 $\pm$ 2.3 & uno_mn 62.9 $\pm$ 3.9 & har_mn 58.0 $\pm$ 5.2 & 
+ deephit-NR-TI0-1029 val, CD-AUC 64.6 $\pm$ 1.6 & aucpr 61.7 $\pm$ 1.4 & sen 66.4 $\pm$ 3.1 & spec 60.7 $\pm$ 0.7 & ppv 49.4 $\pm$ 2.4 & npv 67.4 $\pm$ 2.6 & ibs 57.1 $\pm$ 2.0 & uno_mn 60.3 $\pm$ 5.6 & har_mn 58.4 $\pm$ 6.6 & 
+ deephit-NR-TI0-1029 tst, CD-AUC 61.4 $\pm$ 2.2 & aucpr 59.7 $\pm$ 2.2 & sen 59.7 $\pm$ 3.6 & spec 59.0 $\pm$ 3.2 & ppv 46.1 $\pm$ 1.7 & npv 64.6 $\pm$ 3.0 & ibs 57.5 $\pm$ 4.6 & uno_mn 57.1 $\pm$ 6.5 & har_mn 52.8 $\pm$ 5.2 & 
+In [43]: 
 
 
 ```

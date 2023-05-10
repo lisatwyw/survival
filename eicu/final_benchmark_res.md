@@ -20,6 +20,44 @@ CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell 
  coxnet-1000 val, 60.0 $\pm$ 6.7 & 60.1 $\pm$ 7.2 & 59.3 $\pm$ 2.4 & 60.3 $\pm$ 7.8 & 48.1 $\pm$ 5.2 & 64.0 $\pm$ 2.4 & 11.6 $\pm$ 0.5 & 53.2 $\pm$ 3.8 & 63.7 $\pm$ 0.0 & 
  coxnet-1000 tst, 51.7 $\pm$ 4.7 & 52.2 $\pm$ 5.1 & 50.1 $\pm$ 3.1 & 55.5 $\pm$ 4.2 & 42.7 $\pm$ 3.8 & 60.6 $\pm$ 0.7 & 12.5 $\pm$ 1.5 & 51.4 $\pm$ 9.7 & 60.6 $\pm$ 0.0 & 
 
+```
+
+# DeepSurv
+```
+CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
+ deepsurv-NR-TI1-1000 trn, CD-AUC 57.0 $\pm$ 26.2 & aucpr 63.7 $\pm$ 19.8 & sen 49.1 $\pm$ 26.0 & spec 74.2 $\pm$ 15.4 & ppv 40.2 $\pm$ 21.0 & npv 65.3 $\pm$ 5.0 & ibs 1460.4 $\pm$ 2422.0 & uno_mn 54.5 $\pm$ 18.3 & har_mn 66.8 $\pm$ 28.2 & 
+ deepsurv-NR-TI1-1000 val, CD-AUC 54.1 $\pm$ 16.6 & aucpr 57.0 $\pm$ 12.5 & sen 54.6 $\pm$ 12.2 & spec 57.6 $\pm$ 10.0 & ppv 44.6 $\pm$ 8.5 & npv 61.0 $\pm$ 6.1 & ibs 2107.2 $\pm$ 3157.0 & uno_mn 50.9 $\pm$ 8.2 & har_mn 52.1 $\pm$ 14.2 & 
+ deepsurv-NR-TI1-1000 tst, CD-AUC 46.7 $\pm$ 12.5 & aucpr 52.1 $\pm$ 10.7 & sen 43.8 $\pm$ 10.5 & spec 55.8 $\pm$ 7.4 & ppv 40.6 $\pm$ 4.0 & npv 58.8 $\pm$ 5.5 & ibs 1147.0 $\pm$ 1751.7 & uno_mn 49.0 $\pm$ 7.1 & har_mn 45.4 $\pm$ 9.4 & 
+
+# best
+CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
+ deepsurv-NR-TI0-1000 trn, CD-AUC 65.6 $\pm$ 8.5 & aucpr 66.9 $\pm$ 8.4 & sen 60.6 $\pm$ 6.5 & spec 64.0 $\pm$ 5.9 & ppv 48.1 $\pm$ 4.1 & npv 65.9 $\pm$ 3.1 & ibs 96.2 $\pm$ 29.5 & uno_mn 59.3 $\pm$ 4.8 & har_mn 66.5 $\pm$ 4.1 & 
+ deepsurv-NR-TI0-1000 val, CD-AUC 65.2 $\pm$ 7.8 & aucpr 64.9 $\pm$ 7.6 & sen 61.4 $\pm$ 8.7 & spec 66.6 $\pm$ 3.2 & ppv 50.2 $\pm$ 5.1 & npv 66.3 $\pm$ 2.3 & ibs 98.9 $\pm$ 37.8 & uno_mn 61.2 $\pm$ 4.9 & har_mn 63.3 $\pm$ 7.5 & 
+ deepsurv-NR-TI0-1000 tst, CD-AUC 62.8 $\pm$ 5.3 & aucpr 62.4 $\pm$ 5.1 & sen 60.8 $\pm$ 5.0 & spec 62.2 $\pm$ 3.0 & ppv 47.4 $\pm$ 2.8 & npv 65.6 $\pm$ 2.8 & ibs 98.5 $\pm$ 40.9 & uno_mn 57.1 $\pm$ 10.0 & har_mn 53.7 $\pm$ 6.8 & 
+
+
+CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
+ deepsurv-NR-TI0-1001 trn, CD-AUC 65.8 $\pm$ 9.8 & aucpr 67.4 $\pm$ 9.6 & sen 62.6 $\pm$ 6.8 & spec 61.8 $\pm$ 7.8 & ppv 47.8 $\pm$ 4.6 & npv 66.0 $\pm$ 3.8 & ibs 144.0 $\pm$ 73.9 & uno_mn 60.2 $\pm$ 6.3 & har_mn 69.8 $\pm$ 3.4 & 
+ deepsurv-NR-TI0-1001 val, CD-AUC 64.0 $\pm$ 5.0 & aucpr 65.0 $\pm$ 5.3 & sen 62.4 $\pm$ 3.3 & spec 64.0 $\pm$ 5.8 & ppv 49.4 $\pm$ 4.6 & npv 65.9 $\pm$ 1.8 & ibs 186.5 $\pm$ 138.2 & uno_mn 64.9 $\pm$ 6.4 & har_mn 61.8 $\pm$ 5.8 & 
+ deepsurv-NR-TI0-1001 tst, CD-AUC 61.4 $\pm$ 4.6 & aucpr 61.0 $\pm$ 3.7 & sen 61.0 $\pm$ 6.0 & spec 59.4 $\pm$ 2.4 & ppv 46.5 $\pm$ 3.2 & npv 65.0 $\pm$ 3.0 & ibs 318.4 $\pm$ 404.9 & uno_mn 56.7 $\pm$ 8.6 & har_mn 54.1 $\pm$ 7.0 & 
+
+
+CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
+ deepsurv-NR-TI0-1002 trn, CD-AUC 66.0 $\pm$ 9.0 & aucpr 67.4 $\pm$ 8.8 & sen 60.0 $\pm$ 7.5 & spec 65.1 $\pm$ 4.9 & ppv 48.3 $\pm$ 3.9 & npv 66.1 $\pm$ 3.1 & ibs 115.3 $\pm$ 15.1 & uno_mn 59.2 $\pm$ 4.6 & har_mn 68.2 $\pm$ 4.3 & 
+ deepsurv-NR-TI0-1002 val, CD-AUC 63.4 $\pm$ 7.6 & aucpr 63.6 $\pm$ 7.0 & sen 61.4 $\pm$ 10.1 & spec 64.2 $\pm$ 4.0 & ppv 49.2 $\pm$ 4.8 & npv 65.9 $\pm$ 1.7 & ibs 131.9 $\pm$ 25.2 & uno_mn 62.5 $\pm$ 7.2 & har_mn 61.2 $\pm$ 5.9 & 
+ deepsurv-NR-TI0-1002 tst, CD-AUC 60.9 $\pm$ 5.9 & aucpr 60.9 $\pm$ 5.5 & sen 57.7 $\pm$ 5.3 & spec 62.6 $\pm$ 2.8 & ppv 46.9 $\pm$ 3.1 & npv 64.6 $\pm$ 2.5 & ibs 115.1 $\pm$ 21.9 & uno_mn 59.4 $\pm$ 11.3 & har_mn 52.9 $\pm$ 6.6 & 
+
+
+CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
+ deepsurv-NR-TI0-1003 trn, CD-AUC 66.0 $\pm$ 11.0 & aucpr 68.1 $\pm$ 10.8 & sen 60.6 $\pm$ 9.1 & spec 64.4 $\pm$ 6.5 & ppv 48.3 $\pm$ 4.8 & npv 66.3 $\pm$ 4.4 & ibs 114.6 $\pm$ 20.4 & uno_mn 63.3 $\pm$ 6.1 & har_mn 74.3 $\pm$ 2.2 & 
+ deepsurv-NR-TI0-1003 val, CD-AUC 59.9 $\pm$ 5.4 & aucpr 61.2 $\pm$ 5.4 & sen 58.6 $\pm$ 3.8 & spec 61.3 $\pm$ 9.2 & ppv 48.0 $\pm$ 4.1 & npv 63.7 $\pm$ 2.5 & ibs 115.5 $\pm$ 23.9 & uno_mn 68.5 $\pm$ 10.3 & har_mn 57.7 $\pm$ 6.1 & 
+ deepsurv-NR-TI0-1003 tst, CD-AUC 57.2 $\pm$ 5.9 & aucpr 57.4 $\pm$ 5.0 & sen 55.6 $\pm$ 4.1 & spec 59.3 $\pm$ 5.6 & ppv 45.3 $\pm$ 3.2 & npv 63.2 $\pm$ 3.1 & ibs 127.7 $\pm$ 44.0 & uno_mn 57.1 $\pm$ 10.5 & har_mn 52.2 $\pm$ 4.8 & 
+
+
+CD-AUC & aucpr & sen & spec & ppv & npv & ibs & uno_mn & har_mn & uno & harrell & bs & 
+ deepsurv-NR-TI0-1004 trn, CD-AUC 66.0 $\pm$ 10.4 & aucpr 67.8 $\pm$ 10.0 & sen 60.8 $\pm$ 7.6 & spec 64.3 $\pm$ 7.2 & ppv 48.4 $\pm$ 5.0 & npv 66.1 $\pm$ 3.7 & ibs 254.9 $\pm$ 315.3 & uno_mn 60.4 $\pm$ 7.3 & har_mn 70.0 $\pm$ 4.1 & 
+ deepsurv-NR-TI0-1004 val, CD-AUC 60.8 $\pm$ 8.0 & aucpr 62.0 $\pm$ 7.8 & sen 58.1 $\pm$ 6.4 & spec 64.1 $\pm$ 8.5 & ppv 48.7 $\pm$ 5.6 & npv 64.1 $\pm$ 2.1 & ibs 327.4 $\pm$ 454.5 & uno_mn 63.2 $\pm$ 6.1 & har_mn 60.9 $\pm$ 5.6 & 
+ deepsurv-NR-TI0-1004 tst, CD-AUC 60.1 $\pm$ 4.9 & aucpr 60.7 $\pm$ 4.1 & sen 57.5 $\pm$ 6.0 & spec 62.0 $\pm$ 6.4 & ppv 46.9 $\pm$ 2.9 & npv 64.4 $\pm$ 2.6 & ibs 210.3 $\pm$ 210.4 & uno_mn 63.4 $\pm$ 5.5 & har_mn 52.8 $\pm$ 6.4 & 
 
 ```
 

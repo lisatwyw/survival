@@ -543,6 +543,235 @@ sum( joined.diedinhospital.isnull() |  joined.actualicumortality.isnull() )
 ```
 
 
+## Past History of enitre sample population
+
+```
+0 AS
+1 renal failure- not currently dialyzed
+2 CHF - class II
+3 Performed
+4 hypertension requiring treatment
+5 atrial fibrillation - chronic
+6 CHF - severity unknown
+7 AICD
+8 COPD  - no limitations
+9 rheumatoid arthritis
+10 medication dependent
+11 No Health Problems
+12 MI - date unknown
+13 angina
+14 CHF
+15 insulin dependent diabetes
+16 breast
+17 asthma
+18 non-medication dependent
+19 peptic ulcer disease with h/o GI bleeding
+20 CABG - date unknown
+21 angina - severity unknown
+22 renal insufficiency - creatinine 1-2
+23 peripheral vascular disease
+24 COPD  - moderate
+25 >= 20 mg prednisone per day or equivalent
+26 renal failure - hemodialysis
+27 s/p renal transplant
+28 Not Obtainable
+29 colon
+30 dementia
+31 CML
+32 home oxygen
+33 DVT - within 6 months
+34 unknown pacer
+35 procedural coronary intervention - date unknown
+36 CLL
+37 MI - within 5 years
+38 bladder
+39 CABG - remote
+40 multiple
+41 COPD  - severe
+42 respiratory failure - within 6 months
+43 DVT - within 2 years
+44 hypothyroidism
+45 nodes
+46 lung
+47 encephalopathy
+48 clinical diagnosis
+49 stroke - within 6 months
+50 Cushing's syndrome
+51 liver
+52 bone
+53 sickle cell disease
+54 varices
+55 ascites
+56 stroke - date unknown
+57 TIA(s) - date unknown
+58 DVT - date unknown
+59 head and neck
+60 s/p AVR
+61 pulmonary embolism - date unknown
+62 chemotherapy within past 6 mos.
+63 primary site
+64 other
+65 brain
+66 pulmonary embolism - within 5 years
+67 MI - remote
+68 ventricular tachycardia
+69 ventricular ectopy
+70 other immunosuppressive medications
+71 peptic ulcer disease
+72 chronic kidney stones
+73 restrictive pulmonary disease
+74 s/p heart transplant
+75 atrial fibrillation - intermittent
+76 renal insufficiency - baseline creatinine unknown
+77 procedural coronary intervention - within 5 years
+78 MR
+79 uterus
+80 MI - within 6 months
+81 procedural coronary intervention - within 6 months
+82 chemotherapy within past mo.
+83 neurogenic bladder
+84 UGI bleeding
+85 generalized seizures
+86 pancreas - adenocarcinoma
+87 s/p MVR
+88 ovary
+89 stomach
+90 prostate
+91 recent steroid use for > 10 days
+92 V paced
+93 procedural coronary intervention - remote
+94 CHF - class IV
+95 Hodgkins disease
+96 other seizures
+97 SVT- other
+98 leukemia - other
+99 CHF - class III
+100 MS
+101 limited - household activities (1-4 mets)
+102 esophagus
+103 renal insufficiency - creatinine > 5
+104 CABG - within 2 years
+105 s/p lung transplant
+106 stroke - within 2 years
+107 TR
+108 intra-abdominal
+109 renal insufficiency - creatinine 4-5
+110 AR
+111 stroke - remote
+112 renal insufficiency - creatinine 3-4
+113 Not Performed
+114 renal insufficiency - creatinine 2-3
+115 sarcoidosis
+116 pulmonary embolism - within 6 months
+117 HIV positive
+118 both prednisone and other immunosuppressive medications
+119 other hematologic malignancy
+120 angina - class I
+121 kidney
+122 procedural coronary intervention - within 2 years
+123 s/p TVR
+124 neuromuscular disease
+125 stroke - within 5 years
+126 melanoma
+127 ALL
+128 CHF - class I
+129 pulmonary embolism - remote
+130 jaundice
+131 biopsy proven
+132 DVT - within 5 years
+133 multiple myeloma
+134 intracranial mass
+135 hypercoagulable condition
+136 respiratory failure - date unknown
+137 TIA(s) - remote
+138 A/V paced
+139 non-Hodgkins lymphoma
+140 AML
+141 MI - within 2 years
+142 s/p liver transplant
+143 DLCO 51-60
+144 FVC 51-60
+145 hemolytic anemia
+146 sick sinus syndrome
+147 DVT - remote
+148 CABG - within 5 years
+149 renal failure - peritoneal dialysis
+150 unknown
+151 sarcoma
+152 moderate - stairs/brisk walking (5-10 mets)
+153 CABG - within 6 months
+154 hyperthyroidism
+155 petite mal seizures
+156 ITP
+157 TIA(s) - within 6 months
+158 SLE
+159 AIDS
+160 respiratory failure - within 2 years
+161 testes
+162 clotting disorder
+163 respiratory failure - remote
+164 respiratory failure - within 5 years
+165 Cis-platinum
+166 focal seizures
+167 TIA(s) - within 2 years
+168 FEV1 51-60
+169 FEV1/FVC ratio 41-50
+170 pancreas - islet cell
+171 pulmonary embolism - within 2 years
+172 aplastic anemia
+173 myelofibrosis
+174 vasculitis
+175 bile duct
+176 scleroderma
+177 carcinomatosis
+178 ventricular fibrillation
+179 coma
+180 splenomegaly
+181 Anthracyclines (adriamycin, daunorubicin)
+182 angina - class III
+183 A paced
+184 angina - class IV
+185 Alkylating agents (bleomycin, cytoxan, cyclophos.)
+186 FVC 41-50
+187 FEV1 41-50
+188 FEV1/FVC ratio 71-80
+189 polycythemia vera
+190 angina - class II
+191 FEV1 >80
+192 essential thrombocytosis
+193 TIA(s) - within 5 years
+194 MAT
+195 hypercalcemia
+196 BMT within past 12 mos.
+197 none
+198 FEV1 <30
+199 DLCO <30
+200 FEV1/FVC ratio 51-60
+201 DLCO 41-50
+202 dermatomyositis
+203 Vincristine
+204 excellent - strenuous exercise (>10 mets)
+205 PS
+206 none - bed-ridden
+207 renal tubular acidosis
+208 FEV1/FVC ratio 31-40
+209 FEV1 61-70
+210 FEV1 31-40
+211 FVC 71-80
+212 FVC >80
+213 FEV1/FVC ratio >80
+214 FVC 31-40
+215 FEV1/FVC ratio 61-70
+216 FEV1 71-80
+217 DLCO 71-80
+218 DLCO 31-40
+219 DLCO 61-70
+220 FVC 61-70
+221 FVC <30
+222 DLCO >80
+223 FEV1/FVC ratio <30
+```
+
   
 ### pastHistory of AF 
 ```
